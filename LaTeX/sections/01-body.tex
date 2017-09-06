@@ -16,7 +16,7 @@ Commonly, critical designs are either simply described or they are built and dis
 
 \paragraph{Relation to Design.}
 
-Much of design is oriented around problem-solving and the creation of functional, useful, and pleasurable solutions to practical problems. Critical design is about raising a question or communicating an idea.
+Much of design is oriented around problem-solving and the creation of functional, useful, and pleasurable solutions to practical problems. Critical design is about raising questions, challenging values, and stimulating debate. However critical design considers these goals to be the function (or para-function~\cite{Dun05}) and thus traditional design approaches of achieving functionality can be applied. 
 
 \paragraph{Relation to Art.} 
 
@@ -24,11 +24,35 @@ Critical design has significant overlap with conceptual art, utilizing common me
 
 \paragraph{Relation to Science.} 
 
-Critical design is ideological. But so is science. Even cryptography, positioned as one of the most scientifically rigorous pursuits in the field of security and privacy, is ideological, as argued eloquently by Rogaway in his recent essay~\cite{Rog15}. For example, he notes that work on bland-sounding subjects like differential privacy and identity-based encryption are premised on a certain world view --- respectively, one of massive data collection and government-escrowed master decryption keys. 
+Critical design is ideological. But so is science. Even cryptography, positioned as one of the most scientifically rigorous pursuits in the field of security and privacy, is ideological, as argued eloquently by Rogaway in his recent essay~\cite{Rog15}. For example, he notes that work on bland-sounding subjects like differential privacy and identity-based encryption are premised on a certain values and world views---respectively, one of massive data collection and government-escrowed master decryption keys. 
 
-From a different angle, Herley and van Oorschot question which aspects of security, privacy, and cryptography are even a proper science~\cite{HvO17}. Critical design is not an objective form of design where success can be measured. We purposely do not set out to `measure' the success of our designs as this deeply misses the point of critical design. While our designs are for scientists, engineers, and technologists, it is not to establish theorems or facts but to raise questions. 
+From a different angle, Herley and van Oorschot question which aspects of security, privacy, and cryptography are even a proper science~\cite{HvO17}. Critical design is certainly not an objective form of design where success can be measured. We purposely do not set out to `measure' the success of our designs as this deeply misses the point of critical design. While our designs are for scientists, engineers, and technologists, it is not to establish theorems or facts but to raise new questions.
 
 \paragraph{Related Work}
 
-% Alternet
+Much has been written on critical design and Malpass provides an excellent survey~\cite{Mal17}. Several concepts situated within or close to critical design touch on issues of privacy. We summarize these here: 
+
+\begin{compactlist}
+\item \textbf{The Pillow.} Dunne and Gaver's design takes the form factor of a transparent pillow and plays radio signals it picks up from the technology of that time: \eg phones, pagers, and baby monitors~\cite{DuGa97}. It challenges users to consider how confidential these signals are.  
+\item \textbf{Open Informant.} Described in Table~\ref{tab:examples}, this design exposes nation-state surveillance.
+\item \textbf{United Mirco-Kingdoms.} Dunne and Raby reimagine the UK as four `supershires' where one is occupied by `digitarians:' extreme technocrats ruled by algorithms in a state of total surveillance.  
+\item \textbf{Alternet.} While not critical design, Gold's Alternet has the similar intention of provoking thought through design~\cite{Gol14}. The internet is re-imagined with users retaining full control over their private data, touching on web tracking and our growing digital dossiers. 
+\end{compactlist}
+
+We are unaware of any attempt to build a systematic set of examples based on security and/or privacy. Most of these designs are `one-off' designs. The idea of building a set of concepts related by a common theme, rather than individual concepts, is however established. For example, the Placebo Project by Dunne and Raby offered 8 concepts  (including Compass Table in Table~\ref{tab:examples}) that were all related to EMF radiation. 
+
+Some security and privacy research offers seemingly unintentional critical design. In this case, we subsume the designs in our set of 101 while clearly noting when they originate from other researchers. We also include `found' examples of critical design from outside of academia. We believe that situating them alongside our original ideas allows the reader to consider how close these concepts might be to reality. 
+
+\section{A Selection of Concepts}
+
+In this section, we present of selection of our 101 concepts. The complete set can be found in the full version of the paper. We curated these to illustrate different aspects of critical design and we accompany each vignette with some remarks on its design.
+
+
+
+\paragraph{Dynamic Laughtrack}
+
+Digital television content, such as sitcoms, encode laughtracks as a series of cues rather than an actual recording. Smart TVs listen and classify the viewer's level of laughter on a 10 point scale (with fine grain training over time). The TV adds laughter to the content in a senstive and considerate manner, where the laughtrack is only marginally higher on the scale than the viewer's own laughter. This gently nudges the viewer to greater enjoyment of the program without bombarding her. It also mixes in actual past recordings of the viewer's own laughter to capitalize on emotional mirroring.
+
+\textit{Remarks:} derived from Alexis/Homepod design
+
 
