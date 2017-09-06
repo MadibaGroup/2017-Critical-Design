@@ -1,8 +1,29 @@
 \begin{thebibliography}{1}
 
+\bibitem{Dun05}
+A.~Dunne.
+\newblock {\em Hertzian Tales}.
+\newblock MIT, 2005.
+
 \bibitem{DuRa01}
 A.~Dunne and F.~Raby.
 \newblock {\em Design Noir: The Secret Life of Electronic Objects}.
 \newblock Birkhauser, 2000.
+
+\bibitem{HvO17}
+C.~Herley and P.~C. v.~Oorschot.
+\newblock Sok: Science, security and the elusive goal of security as a
+  scientific pursuit.
+\newblock In {\em IEEE Symposium on Security and Privacy}, 2017.
+
+\bibitem{Mal17}
+M.~Malpass.
+\newblock {\em Critical Design in Context: History, Theory, and Practices}.
+\newblock Bloomsbury, 2017.
+
+\bibitem{Rog15}
+P.~Rogaway.
+\newblock The moral character of cryptographic work.
+\newblock Technical report, IACR Cryptology ePrint Archive, 2015.
 
 \end{thebibliography}
