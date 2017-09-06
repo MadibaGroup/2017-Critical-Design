@@ -1,0 +1,42 @@
+\documentclass{soups} 
+\pdfpagewidth=8.5truein 
+\pdfpageheight=11truein 
+
+% = = = = = Packages = = = = = %
+
+\input{setup/packages}
+\input{setup/macros}
+
+% = = = = = Title = = = = = %
+
+\begin{document}
+
+%\conferenceinfo{Symposium on Usable Privacy and Security (SOUPS)}{2017, July 12--14, 2017, Santa Clara, California.}
+%\CopyrightYear{2017}
+
+\title{ Security Noir: 101 Critical Security \& Privacy Concepts\titlenote{Full Version: \texttt{arXiv:17XX.00XXX [cs.CR]}}}
+
+\numberofauthors{3} 
+\author{ 
+	\alignauthor Jeremy Clark \\ \affaddr{Concordia University} \\ \email{j.clark@concordia.ca}
+	\alignauthor Joel Reardon \\ \affaddr{University of Calgary} \\ \email{joel.reardon@ucalgary.ca}
+	\alignauthor Rilla Khaled \\ \affaddr{Concordia University} \\ \email{rilla.khaled@concordia.ca}
+}
+
+\maketitle
+
+% = = = = = Abstract = = = = = %
+
+\input{sections/00-abstract}
+
+% = = = = = Main Body = = = = = %
+
+\input{sections/01-body}
+
+% = = = = = Bibliography = = = = = %
+
+\bibliographystyle{abbrv}
+\bibliography{bib/design.bib}
+\nocite{*}
+
+\end{document}
