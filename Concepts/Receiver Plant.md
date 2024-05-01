@@ -1,0 +1,3 @@
+### Receiver plant
+
+The receiver plant in the front yard of Alice records the information of the people that pass by. It is a greedy plant that needs to absorb enough bluetooth data to grow. Bob is singlehandedly responsible for its lustrous canopy from walking by Alice's house every day, mostly while checking his work emails on his phone. Perhaps the plant overstepped when it displayed, "you are 15 minutes late today, are you sure you can make it to work on time?"
