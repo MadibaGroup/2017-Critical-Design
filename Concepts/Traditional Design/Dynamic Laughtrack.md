@@ -1,7 +1,3 @@
-### Dynamic Laughtrack
+# Dynamic Laughtrack
 
 Digital television content, such as sitcoms, encode laughtracks as a series of cues rather than an actual recording. Smart TVs listen and classify the viewer's level of laughter on a 10 point scale (with fine grain training over time). The TV adds laughter to the content in a sensitive and considerate manner, where the laughtrack is only marginally higher on the scale than the viewer's own laughter. This gently nudges the viewer to greater enjoyment of the program without bombarding her. It also mixes in actual past recordings of the viewer's own laughter to capitalize on emotional mirroring.
-
-_Remarks:_ derived from Alexis/Homepod design
-
-_Tags:_ subtle;
