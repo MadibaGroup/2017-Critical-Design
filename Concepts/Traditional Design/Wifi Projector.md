@@ -1,0 +1,3 @@
+# Wifi Projector
+
+Minimalist wifi routers have a single light indicator to show internet connectivity, such as a green light as opposed to red light. This understates the interesting and intriguing data flowing through the device as users browse the internet. By contrast, the wifi projector is a talkative router that projects visualizations onto the ceiling above where it is placed. Every website that pulls in scripts and cookies from other domains is displayed as a constellation of stars of various colours and sizes, which slowly fade away. While Alice's visit to dictionary.com is a beautiful galaxy, she is also perturbed by the number of ads and tracking companies surveilling her.

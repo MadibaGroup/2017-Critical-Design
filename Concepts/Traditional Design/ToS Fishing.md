@@ -1,0 +1,3 @@
+# ToS Fishing
+
+ToS Fishing is a digital game where players earn points by hunting down excessive legalese on websites, including terms of service (ToS), privacy policies, and cookie policies. To play, users simply copy and paste the URL of the legalese. If the ToS has been seen before, the users are awarded points based on its word count. If it has not been seen before, it is reviewed by a human for validity and word count—and in this case, the user gets a finder's bonus. To mitigate people from launching custom websites, the game only accepts sites from the Alexis top million. Users display their aggregate score on a leaderboard with a profile showing their top catches (word count only, not the website), and can earn various badges for playing consistently.
