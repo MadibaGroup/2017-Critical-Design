@@ -1,4 +1,4 @@
-* Two-factor, treasure hunt
+* ## Two-factor, treasure hunt
 
 * - A long and unconventional way for two factor authentication
 
@@ -10,12 +10,27 @@
 
   - Name suggestions: some combination of authenticate, treasure verification, but also reflecting that it is long, cumbersome…
 
-* Reset interests results in real life memory loss
+  - https://chatgpt.com/share/1421429f-6310-4bd7-8e83-202f9e8108ed
+
+* 
+
+
+
+---
+
+
+
+* ## Reset interests results in real life memory loss
 
 * - If you mark certain interests as no longer relevant to you on social media, those interests gradually disappear from your life too.
   - Same could be done for people you unfollow. Next time you see the person you won’t remember them.
   - Name suggestions: Something related to resetting, going back to the beginning, deleting.
-    - Maybe something like "Square One" to suggest that whatever relationship you had with the person or whatever you did for that area of interest, you’re back to square one.
+    - Maybe something like "Square One" to suggest that whatever relationship you had with the person or whatever you did for that area of interest, you’re back to square one.'
+  - 
+
+---
+
+
 
 * Tree rings hold your information, can be seen if cut it down
 
@@ -29,7 +44,7 @@
 
 * Adding ketchup, classify in high usage or low usage (purchase history), surveillance,
   (From nothing to hide board)
-  
+
 * Restaurant wait list dossiers on clients
 
 * 
