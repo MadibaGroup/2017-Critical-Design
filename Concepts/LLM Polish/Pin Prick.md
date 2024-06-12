@@ -12,40 +12,66 @@
 
   - https://chatgpt.com/share/1421429f-6310-4bd7-8e83-202f9e8108ed
 
-* 
+* Merge with Pin Prick
 
 
 
----
+**# Pin Pricks**
 
+Line2deleted
 
+ \- 
 
-* ## Reset interests results in real life memory loss
+Line3deleted
 
-* - If you mark certain interests as no longer relevant to you on social media, those interests gradually disappear from your life too.
-  - Same could be done for people you unfollow. Next time you see the person you won’t remember them.
-  - Name suggestions: Something related to resetting, going back to the beginning, deleting.
-    - Maybe something like "Square One" to suggest that whatever relationship you had with the person or whatever you did for that area of interest, you’re back to square one.'
-  - 
+ \- 
 
----
+In the style of a vending machine, a user may provide a fingerprint of blood from which her genome is sequenced. The machine will then dispense sample products to the user: for example, cigarettes for dopamine receptor gene, supplements for brac1/2. Since DNA is unique, the system tracks which products have been dispensed so that a single user does not drain the machine of all their entitlements. The user may also enrol their address for a welcome package.
 
+Line4deleted
 
+ \- 
 
-* Tree rings hold your information, can be seen if cut it down
+Line5deleted
 
-* Abuse of Siri results in red flag on a police profile (bias)
+ \- 
 
-* AI prompts recipies with a lot of cilantro / coriander 
+*_Remarks:_* Related to study where people traded passwords for chocolate bars.
 
-* Sybils: vending machine that scans your face, ages it to 65+ and spits out mask for senior discounts / Sybils: vending machine for 365 licenses with unique birthdays
+Line6deleted
 
-* Feedback loop from driver behaviour to GPS
+ \- 
 
-* Adding ketchup, classify in high usage or low usage (purchase history), surveillance,
-  (From nothing to hide board)
+Line7deleted
 
-* Restaurant wait list dossiers on clients
+ \- 
 
-* 
+*_Tags:_* derivative;
 
+Line8deleted
+
+ \- 
+
+Line9deleted
+
+ \- 
+
+Line10deleted
+
+ \- 
+
+Line11deleted
+
+ \- 
+
+What if there were a more reliable CAPTCHA that detects you are really a human? Pin-prick CAPTCHA is just designed for this. Whenever you need to prove that you are not a robot on a website, the device connected to your computer performs a pin-prick blood test.
+
+Line12deleted
+
+ \- 
+
+Line13deleted
+
+ \- 
+
+Remark: Or it performs a genetic analysis to verify something (like the phenotypical properties you've provided)? When and why will it do that? I think we also noted down the narrative of hacking it, but I can't remember what we talked about exactly. Also, is this disturbing, scary etc?
