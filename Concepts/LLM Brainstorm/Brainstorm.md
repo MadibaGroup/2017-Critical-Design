@@ -1,3 +1,7 @@
+ChatGPT: https://chatgpt.com/share/4e1a8067-83d0-429a-ba53-18a33b20d563
+
+
+
 We are trying to come up with concepts based on "Critical Design" that highlight the risks and dangers in cybersecurity, privacy, algorithmic fairness, and other related issues.  We would like to explain you our design process before we ask for your help. 
 
 First we came up with a list of concepts that can serve as the main idea for the design (like the main message it gives). We call it the "message list":
@@ -75,4 +79,18 @@ We also have list of emotions that we want our design to evoke. It is about how 
 9. For kids
 10. Memes
 
-Then we randomly picked one item from each list and wrote a paragraphe-long scenario that based on the chosen items from each list. So, could you randomly pick one item from those lists (one from each: message list, medium list, form factor list and response list) and write a paragraph-long scenario?
+Then we randomly picked one item from each list and wrote a paragraphe-long scenario that based on the chosen items from each list. 
+
+
+
+
+
+
+
+
+
+
+
+===
+
+So, could you randomly pick one item from those lists (one from each: message list, medium list, form factor list and response list) and write a paragraph-long scenario?
