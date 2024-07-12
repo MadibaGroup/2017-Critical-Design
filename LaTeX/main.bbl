@@ -1,39 +1,109 @@
-\begin{thebibliography}{1}
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\bibitem{Dun05}
-A.~Dunne.
-\newblock {\em Hertzian Tales}.
-\newblock MIT, 2005.
+\begin{thebibliography}{7}
 
-\bibitem{DuGa97}
-A.~Dunne and W.~W. Gaver.
-\newblock The pillow: Artist-designers in the digital age.
-\newblock In {\em CHI}, 1997.
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
 
-\bibitem{DuRa01}
-A.~Dunne and F.~Raby.
-\newblock {\em Design Noir: The Secret Life of Electronic Objects}.
-\newblock Birkhauser, 2000.
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem{Gol14}
-S.~Gold.
-\newblock Alternet rules.
-\newblock Master's thesis, University of the Arts London, 2014.
+\bibitem[Dunne(2005)]%
+        {Dun05}
+\bibfield{author}{\bibinfo{person}{Anthony Dunne}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Hertzian Tales}}.
+\newblock \bibinfo{publisher}{MIT}.
+\newblock
 
-\bibitem{HvO17}
-C.~Herley and P.~C. v.~Oorschot.
-\newblock Sok: Science, security and the elusive goal of security as a
-  scientific pursuit.
-\newblock In {\em IEEE Symposium on Security and Privacy}, 2017.
 
-\bibitem{Mal17}
-M.~Malpass.
-\newblock {\em Critical Design in Context: History, Theory, and Practices}.
-\newblock Bloomsbury, 2017.
+\bibitem[Dunne and Gaver(1997)]%
+        {DuGa97}
+\bibfield{author}{\bibinfo{person}{Anthony Dunne} {and}
+  \bibinfo{person}{William~W. Gaver}.} \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{The Pillow: Artist-designers in the Digital Age}.
+  In \bibinfo{booktitle}{\emph{CHI}}.
+\newblock
 
-\bibitem{Rog15}
-P.~Rogaway.
-\newblock The moral character of cryptographic work.
-\newblock Technical report, IACR Cryptology ePrint Archive, 2015.
+
+\bibitem[Dunne and Raby(2000)]%
+        {DuRa01}
+\bibfield{author}{\bibinfo{person}{Anthony Dunne} {and} \bibinfo{person}{Fiona
+  Raby}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Design Noir: The Secret Life of Electronic
+  Objects}}.
+\newblock \bibinfo{publisher}{Birkhauser}.
+\newblock
+
+
+\bibitem[Gold(2014)]%
+        {Gol14}
+\bibfield{author}{\bibinfo{person}{Sarah Gold}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \emph{\bibinfo{title}{Alternet Rules}}.
+\newblock \bibinfo{thesistype}{Master's\ thesis}. \bibinfo{school}{University
+  of the Arts London}.
+\newblock
+
+
+\bibitem[Herley and v.~Oorschot(2017)]%
+        {HvO17}
+\bibfield{author}{\bibinfo{person}{C. Herley} {and} \bibinfo{person}{P.~C. v.
+  Oorschot}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{SoK: Science, Security and the Elusive Goal of
+  Security as a Scientific Pursuit}. In \bibinfo{booktitle}{\emph{IEEE
+  Symposium on Security and Privacy}}.
+\newblock
+
+
+\bibitem[Malpass(2017)]%
+        {Mal17}
+\bibfield{author}{\bibinfo{person}{M Malpass}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Critical Design in Context: History,
+  Theory, and Practices}}.
+\newblock \bibinfo{publisher}{Bloomsbury}.
+\newblock
+
+
+\bibitem[Rogaway(2015)]%
+        {Rog15}
+\bibfield{author}{\bibinfo{person}{Phillip Rogaway}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Moral Character of Cryptographic
+  Work}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{IACR
+  Cryptology ePrint Archive}. \bibinfo{pages}{1162} pages.
+\newblock
+
 
 \end{thebibliography}
