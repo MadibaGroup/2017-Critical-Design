@@ -5,6 +5,8 @@
 
 * Tree rings hold your information, can be seen if cut it down
 
+* Censoship related ?
+
   
 
 * Unsolicited Designs from initial prompt that we kind of like:
