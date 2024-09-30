@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{22}
+\begin{thebibliography}{20}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -169,16 +169,6 @@
 \newblock
 
 
-\bibitem[Herley and v.~Oorschot(2017)]%
-        {HvO17}
-\bibfield{author}{\bibinfo{person}{C. Herley} {and} \bibinfo{person}{P.~C. v.
-  Oorschot}.} \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{SoK: Science, Security and the Elusive Goal of
-  Security as a Scientific Pursuit}. In \bibinfo{booktitle}{\emph{IEEE
-  Symposium on Security and Privacy}}.
-\newblock
-
-
 \bibitem[Huang and MacNeil(2023)]%
         {huang_designnet_2023}
 \bibfield{author}{\bibinfo{person}{Ziheng Huang} {and} \bibinfo{person}{Stephen
@@ -312,17 +302,6 @@
 \urldef\tempurl%
 \url{https://doi.org/10.1145/3545947.3576266}
 \showDOI{\tempurl}
-
-
-\bibitem[Rogaway(2015)]%
-        {Rog15}
-\bibfield{author}{\bibinfo{person}{Phillip Rogaway}.}
-  \bibinfo{year}{2015}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{The Moral Character of Cryptographic
-  Work}}.
-\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{IACR
-  Cryptology ePrint Archive}. \bibinfo{pages}{1162} pages.
-\newblock
 
 
 \bibitem[Sanchez(2023)]%
