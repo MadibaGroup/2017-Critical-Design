@@ -4,6 +4,17 @@
 
 \input{figures/examples.tex}
 
+%\textblue{Opening sentence.}
+
+% Stems from ChatGPT:
+%What if the technologies we [use] are quietly reshaping the boundaries of privacy and control?"
+% innovations that... betray us
+% When privacy is reduced to a setting and security to a feature...
+% darker side of convenience
+% risks that are normalized and overlooked
+
+%Security is not just about keeping threats out; it is about questioning who we let in, and why. When privacy is a `setting' and security is a `feature,' our research community should continue looking at new ways of promoting insight and awareness over the shifting boundaries of privacy and control. 
+
 Critical design is commonly attributed to Dunne and Raby~\cite{DuRa01,Dun05} however it can be seen as a refinement of earlier movements in arts and design, beginning with the Italian radical design movement and extending through critical practice in HCI~\cite{Mal17}. Consider the three examples provided in Table~\ref{tab:examples}. Each describes the design of an object or technology. In contrast to industrial design, these technologies are not oriented around problem-solving and the creation of solutions that are functional, useful, and pleasurable---they are not meant for mass production. Rather they offer a subtle criticism by illustrating something---electromagnetic radiation, the inevitability of death, the ubiquity and stealth of surveillance---that typically goes unquestioned. They are designed to invoke a dilemma for the user, raising questions, challenging values, and stimulating debate. Critical design considers these goals to be the function (or `para-function'~\cite{Dun05}) of the concept. %, enabling traditional design approaches to maximizing this functionality. 
 
 Critical design has significant overlap with conceptual art, utilizing common methods, and has been disseminated through exhibitions and the art literature. However critical design works by showcasing things that are plausible, believable, and easy for the reader to situate, requiring design practice. Viewing critical design as art creates challenges. Consider the compass table (from Table~\ref{tab:examples}) in the context of an art gallery exhibit---it is meant to illustrate electromagnatic radition in every day life, in one's home, in different positions and orientations within that home---all of this is lost when it sits statically in a gallery. Should critical design be displayed in galleries, a vignette or film or narrative will often accompany the object to describe its context of use.
@@ -70,11 +81,15 @@ CS education literature has explored how to teach concepts related to computer s
 
 \subsection{Methodology}
 
+Our research goal was to create critical design vignettes illustrating security and privacy issues. We will first describe our design methodology for human designers. In later sections, we will explore the use of generative artificial intelligence. We began by reviewing the critical design literature, and we settled on delivering vignettes, which would be short paragraphs describing a new technology and illustrating, with short narratives, how it functions and the feelings it might invoke. The technology is meant to be plausible in the near future (the reader can conceive why someone, somewhere might think it is a good idea), while also showing the darker side of convenience, risks that are normalized and overlooked, or ways a user might be betrayed by the technology. During this period, we were encouraged to notice `found examples' of critical design in the wild, although perhaps not expressed that way.\footnote{For example, well-known cryptographer Matthew Green tweeted: \textit{There’s an entire class of browsing many folks will feel uncomfortable doing if their browser has a little icon in the window that says “Hi <User> I know this is you!” This is Human Behavior 101}.}
+
+To generate designs, after some trial and error, we settled on a digital (Apple Freeform) `sticky note' approach, where we developed ideas within four groups: (1) security and privacy concerns, misconceptions, or principles that could be the basis of a critique; (2) domains where users might especially care about security or privacy; (3) a form factor for the new technology (\eg ); and (4) a possible user response (\eg ). Figure~\ref{} shows our board.\footnote{Artefacts such as our board available on GitHub repository (linked removed for peer-review anonymity)}. We brainstormed around individual notes and drew random combinations to spur discussion and thought.
+
+The design methodology provided structure but did not make designing simple. Each of our 10 designs was quite difficult to develop, each taking many hours of discussion and dozens of discarded ideas that we could not translate into designs. 
+
 \subsection{Designs}
 
 \design{Crystal Avatars}{Crystal avatars are created instantly but only gets better over time. At first, they are not recognizable and cannot be differentiated from other users, but as users browse the site, small details crystallize. Alice is happy to save time registering for the site and have a personal avatar, which automatically added a cat accessory after she spent a lunch hour reading about hairball treatments. However she grows uneasy about the "Woman, Life, Freedom" badge, a cause she believes in but only vocalizes discriminately.}
-
-
 
 \design{Calm Watch}{Calm Watch is a smart watch that tracks anxiety levels based on several biomarkers. When the anxiety level of the wearer crosses a threshold, a haptic vibration pulse prompts the user to look at the watch. From there, they can select a variety of calming techniques, including breathing exercises and guided meditation. Bob is nervous to talk to Alice and becomes flustered when his watch starts vibrating mid-conversation, just loud enough for Alice to hear it and notice his fidgeting with the watch.}
 
@@ -94,22 +109,67 @@ CS education literature has explored how to teach concepts related to computer s
 
 \design{Wifi Projector}{Minimalist wifi routers have a single light indicator to show internet connectivity, such as a green light as opposed to red light. This understates the interesting and intriguing data flowing through the device as users browse the internet. By contrast, the wifi projector is a talkative router that projects visualizations onto the ceiling above where it is placed. Every website that pulls in scripts and cookies from other domains is displayed as a constellation of stars of various colours and sizes, which slowly fade away. While Alice's visit to dictionary.com is a beautiful galaxy, she is also perturbed by the number of ads and tracking companies surveilling her.}
 
-
 \subsection{Discussion}
 
+\begin{itemize}
+\item Example: Eleventh Finger. Biometrics (facial recognition), Security not privacy, STRIDE gives us spoofing (authentication), we were critical 2fa, funny (dark), biometrics is a shiny, critical is not as secure as it seems, usability principles (accessibility, losing), miss it from iphones, disney in the news, where (phone, home), 
+\item Methodology was difficult (ratio of notes to designs)
+\item Hit on why it is hard: methodology sets the stage but can't push out designs
+\end{itemize}
 
-\section{Methodology 2: LLM Polish}
+
+\section{Methodology 2: LLM final}
 
 \subsection{Methodology}
 
+
+\begin{itemize}
+\item We started before ChatGPT, it came out, vignettes are the kind of thing that LLMs should be good at.
+\item We thought we would experiment with it
+\item We prompted with a bit about critical design, we showed it our 10 designs, asked for more. Transcripts.
+\end{itemize}
+
 \subsection{Designs}
 
-\design{ElephantMind}{ElephantMind is an augmented reality (AR) social interaction app designed to enhance small talk by reminding users of past conversations. Alice cancels her coffee date with Bob when ElephantMind's service is down, fearing she won't remember their last chat. When Alice enthusiastically asks John about his trip to Paris, not knowing he was there for a difficult family matter, it leads to an awkward moment. Bob feels their friendship weakening as ElephantMind constantly pushes him to talk about trending political issues with Alice.}
+A good one:
 
+\design{Transparent Wallet}{Alice's digital wallet automatically categorizes her purchases and shares anonymized spending habits on a public leaderboard. She enjoys seeing her eco-friendly purchases earning her top marks in the green consumer category. However, Alice is troubled when she notices ads for luxury items appearing more frequently after her high spending months are tracked and shared by the wallet.}
+
+
+
+\subsection{Discussion}
+\begin{itemize}
+\item Transparent wallet
+\item What we like: gamification is something we talked about, reasonably plausible, similar style
+\item What we don't like: not clear, we didn't `get it' right away, name is just ok
+\item We asked for 5 designs: they were all as good (link to transcript). For space, don't include
+\item Repetitious: three designs on data sharing (weaponized against the user, twice in the form of ads and once in the form of insurance premiums). 
+\item Not designs: hiring bot that is biased or algorithm for personalized social media feed: valid criticism, but have already been made (AI ethics 101), exist not speculative
+\item Titles are boring
+\item We tried for subtle, humorous, variety - not reflected
+
+\end{itemize}
+
+\section{Methodology 3: Polish}
+
+\subsection{Methodology}
+
+\begin{itemize}
+\item We were not satisfied
+\item The potential we saw from LLM was it can generate lots of ideas
+\item The deficit was the ideas needing intervention from us
+\item The idea of method 3 was to draw on all strengths: LLM can generate lots of idea, we can curate, iterate, inject our own ideas
+\item Prompted with same prompt as method 3 for background (background + our designs), we gave rough notes of an "interesting idea" and then iterated with it to develop the idea.
+\end{itemize}
+
+
+\subsection{Designs}
+
+\design{BloodKey}{BloodKey is a form of two-factor authentication that can protect online accounts from stolen passwords. With BloodKey, after providing their password, users authenticate with a pin-prick blood test using an inexpensive biomedical Bluetooth gadget. BloodKey was quickly adopted by leading websites because it was very hard to fake, despite its invasive nature. However, Alice grew tired of the daily inconvenience of pricking her finger, so she gradually stopped logging into her social media accounts altogether, while Bob's medical condition prevented him from using it at all. A media frenzy ensued when the most popular free-to-play online game sold users' genomic data to pharmaceutical companies, boosting their revenue streams.}
 
 \design{Civic Compass}{Civic Compass is an add-on for popular GPS navigation apps that highlights the ethical considerations of various routes, such as avoiding surveillance hotspots or environmentally protected habitats. Public policy debates have emerged over the app's potential abuse by criminals. When Alice is in a rush, she ignores its suggestions. She is also disturbed to see that most of the surveillance hotspots are in impoverished, marginalized neighborhoods.}
 
-\design{BloodKey}{BloodKey is a form of two-factor authentication that can protect online accounts from stolen passwords. With BloodKey, after providing their password, users authenticate with a pin-prick blood test using an inexpensive biomedical Bluetooth gadget. BloodKey was quickly adopted by leading websites because it was very hard to fake, despite its invasive nature. However, Alice grew tired of the daily inconvenience of pricking her finger, so she gradually stopped logging into her social media accounts altogether, while Bob's medical condition prevented him from using it at all. A media frenzy ensued when the most popular free-to-play online game sold users' genomic data to pharmaceutical companies, boosting their revenue streams.}
+\design{ElephantMind}{ElephantMind is an augmented reality (AR) social interaction app designed to enhance small talk by reminding users of past conversations. Alice cancels her coffee date with Bob when ElephantMind's service is down, fearing she won't remember their last chat. When Alice enthusiastically asks John about his trip to Paris, not knowing he was there for a difficult family matter, it leads to an awkward moment. Bob feels their friendship weakening as ElephantMind constantly pushes him to talk about trending political issues with Alice.}
 
 \design{Profiled Plates} {Profiled Plates is a technology for high-end restaurants that offers an extraordinarily personalized dining experience by using extensive data mining and online profiling. With just a reservation name, the restaurant gathers detailed information about guests and their friends from social media, public records, and online interactions to create a bespoke meal tailored to individual preferences and backgrounds. Alice books a table for her birthday and is thrilled to find her favorite flowers on the table and a menu that excludes cilantro, a dislike she once tweeted about. However the system led to a low tip from Bob when it served a meal highly customized for a different Bob Bradley.}
 
@@ -118,59 +178,46 @@ CS education literature has explored how to teach concepts related to computer s
 \subsection{Discussion}
 
 
-\section{Methodology 3: LLM final}
+
+\design{Rough Notes (ElephantMind)}{Avoiding small talk; to know more about the person you meet; the app reminds you the last conversation you had with them; constantly reminding something trivial (Alice promised Bob to grab a coffee sometime. Next time Bob sees Alice the app reminds Bob what Alice said.); Summarize the last conversation you had with them; For a person you meet for the first time, device gives you some background info about them so that you choice the right topic of conversation.; Name for the app: something that is about never forgetting like having a memory like an elephant; Photographic memory; Or something related to recording everything}
+
+\begin{itemize}
+\item ElephantMind
+\item Prompt for names, might say: Memori, ElephantMind, Recall, Memento,  MindVault. Choose or iterate (give me more elephant examples). ElephantMind
+ElephantMemory
+ElephantRecall
+TrunkTrack
+PachydermMemory
+MammothMemories
+ElephantEcho
+IvoryInsight
+TuskerTips
+ElephantWhisper
+\item Prompt for "things that could go wrong" (the second part of vignette). Go through 40 examples and select ones, refine or ask for things long the same lines. 
+\item Work for right format: length, examples, not giving the lesson at the end - easy
+\item Inconsistency - need to start with a solid idea
+\end{itemize} 
+
+
+\section{Methodology 4: LLM Brainstorm}
 
 \subsection{Methodology}
+\begin{itemize}
+\item Prompted with generate description + traditional designs. Added prompt for our complete sticky notes. 
+\item Asked for help in generated new sticky notes - not useful
+\item Asked it to come up with designs based on random combinations. Address lack of diversity
+\item Example: Digital Manipulation, Genomics, Facial Recognition, Scary
+\end{itemize}
 
 \subsection{Designs}
+Sample:
 
-\design{Transparent Wallet}{Alice's digital wallet automatically categorizes her purchases and shares anonymized spending habits on a public leaderboard. She enjoys seeing her eco-friendly purchases earning her top marks in the green consumer category. However, Alice is troubled when she notices ads for luxury items appearing more frequently after her high spending months are tracked and shared by the wallet.}
+\design{Virtual Persona}{Virtual Persona is a social media platform that encourages users to create exaggerated online personas. Alice enjoys the freedom to express herself more boldly online but faces backlash when her boss finds her controversial posts, revealing the stark difference between acceptable behavior online and offline.}
 
-\design{Echo Chamber Filter}{A social media app uses an advanced algorithm to filter content to match users' perceived political views and biases. At first, Alice appreciates the streamlined news feed with content she agrees with. Over time, she realizes her interactions are limited to a narrow worldview, reinforcing her existing beliefs and making it difficult to encounter differing perspectives or engage in meaningful discussions.}
-
-\design{Emotion Tracker Wearable}{Alice’s smartwatch not only tracks her physical activity but also monitors her emotional states through heart rate variability and other biomarkers. The app suggests activities to boost her mood when she’s down. One day, Alice notices her insurance premium has increased. She discovers the data from her wearable has been shared with her insurance company, indicating high stress levels, which they consider a risk factor.}
-
-\design{Algorithmic Hiring Bot}{Alice's company uses an AI-driven bot to screen job applications and conduct initial interviews. The bot, trained on historical data, tends to favor candidates with backgrounds similar to existing employees. This results in a homogeneous workplace lacking diversity. Alice starts questioning the fairness of the hiring process when a highly qualified candidate she referred is rejected without a clear reason.}
-
-\design{Smart Mirror}{Alice's smart mirror provides personalized skincare recommendations and tracks changes in her appearance over time. It uses facial recognition to analyze her emotions and suggest products to improve her mood. One day, Alice notices the mirror suggesting makeup products she dislikes. She realizes the mirror has been selling her data to cosmetic companies, leading to targeted ads that influence her purchasing decisions.}
-
-\section{Methodology 3: LLM Brainstorm}
-
-\subsection{Methodology}
-
-\subsection{Designs}
-
-\paragraph{Virtual Persona} 
-Virtual Persona is a social media platform that encourages users to create exaggerated online personas. Alice enjoys the freedom to express herself more boldly online but faces backlash when her boss finds her controversial posts, revealing the stark difference between acceptable behavior online and offline.
-
-\paragraph{Minimal Access}
-Minimal Access is a file-sharing app that strictly enforces the principle of least privilege, granting users only the minimal permissions required for their tasks. Alice appreciates the security but finds herself frustrated when she cannot access files she needs for urgent work, highlighting the challenges of balancing security and usability.
-
-\paragraph{Data Trails}
-Data Trails is a visualization tool that shows how Alice's data moves and interacts across various platforms after she shares it. Alice is shocked to see her data mingling with countless unknown entities, emphasizing how data takes on a life of its own once shared.
-
-\paragraph{ShareSmart}
-ShareSmart is a social media app that tracks and displays the amount of personal information Alice shares compared to her privacy concerns. Despite her vocal worries about privacy, the app shows that Alice continues to share significant amounts of personal data, highlighting the privacy paradox.
-
-\paragraph{AnonGroup}
-AnonGroup is a privacy-focused communication tool that groups users into anonymity sets to protect their identities. Alice enjoys the sense of security but grows uncomfortable when she realizes that within her anonymity set, some members are engaging in questionable activities, making her question the balance between privacy and accountability.
-
-\paragraph{FreeFace}
-FreeFace is a free photo-editing app that funds itself by selling user data to advertisers. Alice loves the app's features until she notices eerily personalized ads and learns her data is being sold, leading her to confront the reality that she is the product.
-
-\paragraph{FuturePath}
-FuturePath is a career guidance app that uses AI to predict Alice's career trajectory based on her current skills and behavior. Initially useful, Alice becomes uneasy when the app's deterministic predictions start influencing her choices, making her feel trapped by the technology's projections.
-
-\paragraph{SafeLock}
-SafeLock is a smart home security system that promises impenetrable protection. Alice feels secure until a minor system glitch leaves her home vulnerable, revealing her over-reliance on presumed security and the false sense of safety it provided.
-
-\paragraph{BioPass}
-BioPass is a biometric authentication app that uses facial recognition and fingerprints for access. Alice enjoys the convenience but becomes alarmed when a data breach exposes her biometric data, making her realize the unique and irreversible nature of such data compared to passwords.
-
-\paragraph{CleanNet} 
-CleanNet is a browser extension that gamifies cyber hygiene practices by awarding points for good habits. Alice starts using it enthusiastically but feels embarrassed when the app publicly ranks her low compared to her peers, driving home the importance of maintaining good cyber hygiene.
 
 \subsection{Discussion}
+
+
 
 \section{Concluding Remarks}
 
