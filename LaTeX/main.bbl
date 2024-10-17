@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{20}
+\begin{thebibliography}{22}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -200,6 +200,22 @@
 \showDOI{\tempurl}
 
 
+\bibitem[Levalle(2020)]%
+        {levalle2020biometric}
+\bibfield{author}{\bibinfo{person}{Yamila Levalle}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Researcher uses 3D-printed fingerprint to spoof
+  biometric authentication}.
+\newblock \bibinfo{journal}{\emph{Biometric Update}} (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://www.biometricupdate.com}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Presented at Def Con 2020}.
+
+
 \bibitem[Lin and Long(2023)]%
         {lin_generative_2023}
 \bibfield{author}{\bibinfo{person}{Lauren Lin} {and} \bibinfo{person}{Duri
@@ -302,7 +318,7 @@
 
 \bibitem[Sanchez(2023)]%
         {sanchez_examining_2023}
-\bibfield{author}{\bibinfo{person}{Téo Sanchez}.}
+\bibfield{author}{\bibinfo{person}{T{\'e}o Sanchez}.}
   \bibinfo{year}{2023}\natexlab{}.
 \newblock \showarticletitle{Examining the {Text}-to-{Image} {Community} of
   {Practice}: {Why} and {How} do {People} {Prompt} {Generative} {AIs}?}. In
@@ -315,6 +331,20 @@
 \urldef\tempurl%
 \url{https://doi.org/10.1145/3591196.3593051}
 \showDOI{\tempurl}
+
+
+\bibitem[Shostack(2014)]%
+        {shostack2014threat}
+\bibfield{author}{\bibinfo{person}{Adam Shostack}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Threat Modeling: Designing for Security}}.
+\newblock \bibinfo{publisher}{Wiley}, \bibinfo{address}{Indianapolis, IN}.
+\newblock
+\showISBNx{978-1-118-80008-2}
+\urldef\tempurl%
+\url{https://www.wiley.com/en-us/Threat+Modeling%3A+Designing+for+Security-p-9781118809990}
+\showURL{%
+\tempurl}
 
 
 \bibitem[Tholander and Jonsson(2023)]%

@@ -29,9 +29,9 @@ Critical design has significant overlap with conceptual art, utilizing common me
 
 \paragraph{Security \& Privacy.} Security and privacy risks are often intangible and invisible, making concepts difficult to communicate to everyday users. We saw a parallel to electromagnetic radiation in this regard, and considered if critical design could similarly aid in illuminating risks. The primary contribution of this paper is a set of designs.
 
-\paragraph{Vignettes.} Critical designs are commonly described through vignettes. Occasionally they are built and displayed. In the case of Dunne and Raby's Compass Table (and the seven other objects in their \textit{Placebo} project~\cite{DuRa01}), the table was built and given to individuals to use. This field study was followed by an exit survey on how the participants felt about the object. In this paper, we describe our designs through short vignettes that illustrate its design and use case. If they are a successful design, the reader should easily imagine its use in her life and question it critically, resulting in its `rhetorical use'~\cite{Mal17} rather than practical use. These designs are transgressive and intended to provoke the reader's emotions; invoking humour, satire, ridicule, poetry, playfulness, lewdness, appropriation, irreverence or deliberate overcompensation.
+\paragraph{Vignettes.} Critical designs are commonly described through vignettes. Occasionally they are built and displayed. In the case of Dunne and Raby's Compass Table (and the seven other objects in their \textit{Placebo} project~\cite{DuRa01}), the table was built and given to individuals to use. This field study was followed by an exit survey on how the participants felt about the object. In this paper, we describe our designs through short vignettes that illustrate its design and use case. If they are a successful design, the reader should easily imagine its use in their life and question it critically, resulting in its `rhetorical use'~\cite{Mal17} rather than practical use. These designs are transgressive and intended to provoke the reader's emotions; invoking humour, satire, ridicule, poetry, playfulness, lewdness, appropriation, irreverence, or deliberate overcompensation.
 
-\paragraph{Methodology.} In order to generate designs, we initially employed a XXX methodology, using concepts and sticky notes (see Figure). The design process coincided with the emergence of machine learning tools, based on large language models, like ChatGPT. We decided to also experiment with AI-assistance. We conducted four experiments. First, we (a) used traditional design methodology (no AI) to generate 10 designs (Section~\ref{}). We then (b) fed the 10 designs to ChatGPT version GPT-4g and asked it to generate similar designs (Section~\ref{}). It effortlessly generated designs that initially seemed sound, but under greater scrutiny, were lacking. We then (c) experimented with giving ChatGPT a sketch of what a possible design could involve and then dialogued with it to develop and refine the design, using it is a collaborative tool (Section~\ref{}). We found this approach produced good results and was less effort than method (a). Finally we (d) educated ChatGPT on the entire design process (Section~\ref{}), trying to involve it in the earliest stages of design (as opposed to (c) where we involved it after we had an initial sketch of an idea). We found this approach was less effective. In our experience, ChatGPT is capable of assisting in designs but requires human guidance and intervention. AI's strength is in generating large volumes of ideas which can be curated and refined by humans.
+\paragraph{Methodology.} In order to generate designs, we report on four methodologies. First, we (a) used traditional design methodology to generate 10 designs (Section~\ref{sec:meth1}). We then experimented with the generative AI tool \gpt \gptv. Then we (b) fed our designs to \gpt and asked it to generate new designs (Section~\ref{sec:meth2}). It effortlessly generated designs that initially seemed sound, but under greater scrutiny, were lacking. We then (c) experimented with giving \gpt a sketch of what a possible design could involve and then dialogued with it to develop and refine the design, using it is a collaborative tool (Section~\ref{sec:meth3}). We found this approach produced good results and was less effort than method (a). Finally we (d) educated \gpt on the entire design process (Section~\ref{sec:meth4}), trying to involve it in the earliest stages of design (as opposed to (c) where we involved it after we had an initial sketch of an idea). We found this approach was less effective. In our experience, \gpt is capable of assisting in designs but requires human guidance and intervention. Generative AI's strength is in generating large volumes of ideas, while humans can contribute by curating and refining the best ideas.
 
 \subsection{Related Work}
 
@@ -78,14 +78,21 @@ CS education literature has explored how to teach concepts related to computer s
 
 
 \section{Methodology 1: Traditional Design}
+\label{sec:meth1}
 
 \subsection{Methodology}
 
-Our research goal was to create critical design vignettes illustrating security and privacy issues. We will first describe our design methodology for human designers. In later sections, we will explore the use of generative artificial intelligence. We began by reviewing the critical design literature, and we settled on delivering vignettes, which would be short paragraphs describing a new technology and illustrating, with short narratives, how it functions and the feelings it might invoke. The technology is meant to be plausible in the near future (the reader can conceive why someone, somewhere might think it is a good idea), while also showing the darker side of convenience, risks that are normalized and overlooked, or ways a user might be betrayed by the technology. During this period, we were encouraged to notice `found examples' of critical design in the wild, although perhaps not expressed that way.\footnote{For example, well-known cryptographer Matthew Green tweeted: \textit{There’s an entire class of browsing many folks will feel uncomfortable doing if their browser has a little icon in the window that says “Hi <User> I know this is you!” This is Human Behavior 101}.}
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/brainstorming.pdf}
+\caption{Final affinity board after brainstorming. Not intended to be legible; intended to communicate the scale of the board. Artefacts, including this board, are available on our GitHub repository (linked removed for peer-review anonymity).\label{fig:board}}
+\end{center}
+\end{figure}
 
-We settled, after some trial and error, on a digital (Apple Freeform) `sticky notes' methodology to generate design ideas, where we developed concepts in four groups: (1) security and privacy concerns, misconceptions, or principles that could be the basis of a critique (\eg); (2) domains where users might especially care about security or privacy (\eg ); (3) a form factor for the new technology (\eg ); and (4) a possible user response (\eg ). Figure~\ref{} shows our board.\footnote{Artefacts such as our board available on GitHub repository (linked removed for peer-review anonymity)}. We brainstormed around individual notes and drew random combinations to spur discussion and thought.
 
-The design methodology provided structure but did not make designing simple. Each of our 10 designs was quite difficult to develop, each taking many hours of discussion and dozens of discarded ideas that we could not translate into designs. 
+Our research goal was to create critical design vignettes illustrating security and privacy issues. We will first describe our design methodology for human designers. We began by reviewing the critical design literature, and we settled on delivering vignettes, which would be short paragraphs describing a new technology and illustrating, with short narratives, how it functions and the feelings it might invoke. The technology is meant to be plausible in the near future (the reader can conceive why someone, somewhere might think it is a good idea), while also showing the darker side of convenience, risks that are normalized and overlooked, or ways a user might be betrayed by the technology. During this period, we were encouraged to notice `found examples' of critical design in the wild, although perhaps not expressed that way.\footnote{For example, well-known cryptographer Matthew Green tweeted: \textit{There’s an entire class of browsing many folks will feel uncomfortable doing if their browser has a little icon in the window that says “Hi <User> I know this is you!” This is Human Behavior 101}.}
+
+We settled, after some trial and error, on a digital (Apple Freeform) `sticky notes' methodology to generate affinity maps, where we clustered our notes in four groups: (1) security and privacy concerns (\eg `if you don't pay for the product, you are the product'), misconceptions (\eg `nothing to hide'), or principles (\eg `minimal disclosure')  that could be the basis of a critique; (2) domains where users might especially care about security or privacy (\eg health records or social networks); (3) a form factor for the new technology (\eg haptics or extended reality); and (4) a possible user response (\eg amused or embarrassed). Figure~\ref{fig:board} shows our board. We brainstormed around individual notes and drew random combinations to spur divergent thought. The design methodology provided structure but did not make designing simple. Each of our 10 designs was quite difficult to develop, each taking many hours of discussion and dozens of discarded ideas that we could not translate into designs. 
 
 \subsection{Designs}
 
@@ -111,30 +118,22 @@ The design methodology provided structure but did not make designing simple. Eac
 
 \subsection{Discussion}
 
-\begin{itemize}
-\item Example: Eleventh Finger. Biometrics (facial recognition), Security not privacy, STRIDE gives us spoofing (authentication), we were critical 2fa, funny (dark), biometrics is a shiny, critical is not as secure as it seems, usability principles (accessibility, losing), miss it from iphones, disney in the news, where (phone, home), 
-\item Methodology was difficult (ratio of notes to designs)
-\item Hit on why it is hard: methodology sets the stage but can't push out designs
-\end{itemize}
+We will provide some of our \textit{stems}\footnote{In this context, `stems' refer to the core ideas, influences, or conceptual elements that contribute to the development of a design.} for one example: Eleventh Finger.  We felt that many of our designs were privacy-focused and we wanted a design that was explicitly security-focused. STRIDE is a threat modelling framework that outlines six high level categories of threats: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege~\cite{shostack2014threat}. We considered possible designs for each and Eleventh Finger came from our ideation around Spoofing. We tried to avoid privacy implications, even though they are important as well (the ACLU and EPIC were raising concerns about Disney's use of biometric fingerprint scanning at its parks). Biometrics are often considered the holy grail of authentication by non-experts for their simplicity, however they have drawbacks in the areas of entropy, revocation after theft, and delegation. At the hacker conference Def Con, researchers showed that biometric scanners, like those found in modern smartphones, can be tricked using 3D-printed fingerprints~\cite{levalle2020biometric}. We were open to using (dark) humour to avoid sounding too earnest in our designs. The reader can likely see how Eleventh Finger can emerge from these stems, however it is less apparent where the stems themselves came from (\eg from our academic backgrounds and personal experiences), nor the large number of stems we discarded because we could not see connections between them. 
 
-
-\section{Methodology 2: LLM final}
+\section{Methodology 2: LLM Generated Designs}
+\label{sec:meth2}
 
 \subsection{Methodology}
 
+The design concepts in the previous section were developed before or independent from generative AI tools like \gpt. However, once these tools became available, we felt it would be interesting to determine how they might assist in generating designs. In particular, since we are developing written vignettes, large language models (LLMs) are the appropriate machine learning technique suited to this purpose.
 
-\begin{itemize}
-\item We started before ChatGPT, it came out, vignettes are the kind of thing that LLMs should be good at.
-\item We thought we would experiment with it
-\item We prompted with a bit about critical design, we showed it our 10 designs, asked for more. Transcripts.
-\end{itemize}
+We began with the simplest methodology: we fed \gpt \gptv designs (finished but unpolished) from Section~\ref{sec:meth1} and asked for the generation of new designs. All transcripts are available on our GitHub repository.\footnote{Link removed for anonymous peer-review.}
 
-\subsection{Designs}
+\subsection{Sample Designs}
 
-A good one:
+\design{Transparent Wallet}{Alice's digital wallet automatically categorizes her purchases and shares anonymized spending habits on a public leaderboard. She enjoys seeing her eco-friendly purchases earning her top marks in the green consumer category. However, Alice is troubled when she notices ads for luxury items appearing more frequently after her high spending months are tracked and shared by the wallet~[\gpt Generated].}
 
-\design{Transparent Wallet}{Alice's digital wallet automatically categorizes her purchases and shares anonymized spending habits on a public leaderboard. She enjoys seeing her eco-friendly purchases earning her top marks in the green consumer category. However, Alice is troubled when she notices ads for luxury items appearing more frequently after her high spending months are tracked and shared by the wallet.}
-
+\design{Transparent Wallet}{Alice's digital wallet automatically categorizes her purchases and shares anonymized spending habits on a public leaderboard. She enjoys seeing her eco-friendly purchases earning her top marks in the green consumer category. However, Alice is troubled when she notices ads for luxury items appearing more frequently after her high spending months are tracked and shared by the wallet~[\gpt Generated].}
 
 
 \subsection{Discussion}
@@ -150,7 +149,8 @@ A good one:
 
 \end{itemize}
 
-\section{Methodology 3: Polish}
+\section{Methodology 3: LLM Collaborative Co-Designs}
+\label{sec:meth3}
 
 \subsection{Methodology}
 
@@ -199,7 +199,8 @@ ElephantWhisper
 \end{itemize} 
 
 
-\section{Methodology 4: LLM Brainstorm}
+\section{Methodology 4: LLM Design Methodology}
+\label{sec:meth4}
 
 \subsection{Methodology}
 \begin{itemize}
