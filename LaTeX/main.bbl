@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{22}
+\begin{thebibliography}{23}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -277,6 +277,17 @@
 \urldef\tempurl%
 \url{https://doi.org/10.1145/3357236.3395451}
 \showDOI{\tempurl}
+
+
+\bibitem[Narayanan and Kapoor(2024)]%
+        {snakeoil}
+\bibfield{author}{\bibinfo{person}{Arvind Narayanan} {and}
+  \bibinfo{person}{Sayash Kapoor}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{AI Snake Oil: What Artificial Intelligence
+  Can Do, What It Can't, and How to Tell the Difference}}.
+\newblock \bibinfo{publisher}{Princeton University Press}.
+\newblock
+\showISBNx{9780691249131}
 
 
 \bibitem[Ojha et~al\mbox{.}(2023)]%

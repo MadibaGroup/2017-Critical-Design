@@ -85,14 +85,14 @@ CS education literature has explored how to teach concepts related to computer s
 \begin{figure}[t]
 \begin{center}
 \includegraphics[width=0.8\textwidth]{figures/brainstorming.pdf}
-\caption{Final affinity board after brainstorming. Not intended to be legible; intended to communicate the scale of the board. Artefacts, including this board, are available on our GitHub repository (linked removed for peer-review anonymity).\label{fig:board}}
+\caption{Final affinity board after brainstorming. Not intended to be legible; intended to communicate the scale of the board.\label{fig:board}}
 \end{center}
 \end{figure}
 
 
 Our research goal was to create critical design vignettes illustrating security and privacy issues. We will first describe our design methodology for human designers. We began by reviewing the critical design literature, and we settled on delivering vignettes, which would be short paragraphs describing a new technology and illustrating, with short narratives, how it functions and the feelings it might invoke. The technology is meant to be plausible in the near future (the reader can conceive why someone, somewhere might think it is a good idea), while also showing the darker side of convenience, risks that are normalized and overlooked, or ways a user might be betrayed by the technology. During this period, we were encouraged to notice `found examples' of critical design in the wild, although perhaps not expressed that way.\footnote{For example, well-known cryptographer Matthew Green tweeted: \textit{There’s an entire class of browsing many folks will feel uncomfortable doing if their browser has a little icon in the window that says “Hi <User> I know this is you!” This is Human Behavior 101}.}
 
-We settled, after some trial and error, on a digital (Apple Freeform) `sticky notes' methodology to generate affinity maps, where we clustered our notes in four groups: (1) security and privacy concerns (\eg `if you don't pay for the product, you are the product'), misconceptions (\eg `nothing to hide'), or principles (\eg `minimal disclosure')  that could be the basis of a critique; (2) domains where users might especially care about security or privacy (\eg health records or social networks); (3) a form factor for the new technology (\eg haptics or extended reality); and (4) a possible user response (\eg amused or embarrassed). Figure~\ref{fig:board} shows our board. We brainstormed around individual notes and drew random combinations to spur divergent thought. The design methodology provided structure but did not make designing simple. Each of our 10 designs was quite difficult to develop, each taking many hours of discussion and dozens of discarded ideas that we could not translate into designs. 
+We settled, after some trial and error, on a digital (Apple Freeform) `sticky notes' methodology to generate affinity maps, where we clustered our notes in four groups: (1) security and privacy concerns (\eg `if you don't pay for the product, you are the product'), misconceptions (\eg `nothing to hide'), or principles (\eg `minimal disclosure')  that could be the basis of a critique; (2) domains where users might especially care about security or privacy (\eg health records or social networks); (3) a form factor for the new technology (\eg haptics or extended reality); and (4) a possible user response (\eg amused or embarrassed). Figure~\ref{fig:board} shows our board. Artefacts, including this board, are available on our GitHub repository.\footnote{GitHub: \url{https://github.com/MadibaGroup/2017-Critical-Design}} We brainstormed around individual notes and drew random combinations to spur divergent thought. The design methodology provided structure but did not make designing simple. Each of our 10 designs was quite difficult to develop, each taking many hours of discussion and dozens of discarded ideas that we could not translate into designs. 
 
 \subsection{Designs}
 
@@ -125,27 +125,26 @@ We will provide some of our \textit{stems}\footnote{In this context, `stems' ref
 
 \subsection{Methodology}
 
-The design concepts in the previous section were developed before or independent from generative AI tools like \gpt. However, once these tools became available, we felt it would be interesting to determine how they might assist in generating designs. In particular, since we are developing written vignettes, large language models (LLMs) are the appropriate machine learning technique suited to this purpose.
+The design concepts in the previous section were developed before or independent from generative AI tools like \gpt. However, once these tools became available, we felt it would be interesting to determine how they might assist in generating designs. In particular, since we are developing written vignettes, large language models (LLMs) are the appropriate machine learning technique suited to this purpose. We began with the simplest methodology: we fed \gpt \gptv example designs from Section~\ref{sec:meth1} and asked for the generation of new designs. All transcripts are available on our GitHub repository.\footnote{GitHub: \url{https://github.com/MadibaGroup/2017-Critical-Design}}
 
-We began with the simplest methodology: we fed \gpt \gptv designs (finished but unpolished) from Section~\ref{sec:meth1} and asked for the generation of new designs. All transcripts are available on our GitHub repository.\footnote{Link removed for anonymous peer-review.}
+\subsection{Designs}
 
-\subsection{Sample Designs}
+The following are the first two designs generated by \gpt.
 
-\design{Transparent Wallet}{Alice's digital wallet automatically categorizes her purchases and shares anonymized spending habits on a public leaderboard. She enjoys seeing her eco-friendly purchases earning her top marks in the green consumer category. However, Alice is troubled when she notices ads for luxury items appearing more frequently after her high spending months are tracked and shared by the wallet~[\gpt Generated].}
+\design{Transparent Wallet}{Alice's digital wallet automatically categorizes her purchases and shares anonymized spending habits on a public leaderboard. She enjoys seeing her eco-friendly purchases earning her top marks in the green consumer category. However, Alice is troubled when she notices ads for luxury items appearing more frequently after her high spending months are tracked and shared by the wallet~[\href{https://chatgpt.com/share/4be6016c-7eb0-4063-936a-2a145e925a19}{\gpt Transcript}].}
 
-\design{Transparent Wallet}{Alice's digital wallet automatically categorizes her purchases and shares anonymized spending habits on a public leaderboard. She enjoys seeing her eco-friendly purchases earning her top marks in the green consumer category. However, Alice is troubled when she notices ads for luxury items appearing more frequently after her high spending months are tracked and shared by the wallet~[\gpt Generated].}
-
+\design{Echo Chamber Filter}{A social media app uses an advanced algorithm to filter content to match users' perceived political views and biases. At first, Alice appreciates the streamlined news feed with content she agrees with. Over time, she realizes her interactions are limited to a narrow worldview, reinforcing her existing beliefs and making it difficult to encounter differing perspectives or engage in meaningful discussions.~[\href{https://chatgpt.com/share/4be6016c-7eb0-4063-936a-2a145e925a19}{\gpt Transcript}].}
 
 \subsection{Discussion}
+
+We liked Transparent Wallet to a large extent and disliked Echo Chamber Filter. 
+
+As evident from these two examples, \gpt used descriptive names for the designs with low creativity. Echo Chamber Filter makes an important critique but it does not describe a new (speculative) technology, personalized feeds have been utilized by social media platforms for years and have been thoroughly criticized for exactly this point (\eg~\cite{snakeoil}). We asked for five designs and three of the designs, including Transparent Wallet, were based on the threat of data sharing being weaponized against the user (twice in the form of ads and once in the form of insurance premiums), demonstrating that \gpt can be highly repetitive. 
+
 \begin{itemize}
-\item Transparent wallet
 \item What we like: gamification is something we talked about, reasonably plausible, similar style
 \item What we don't like: not clear, we didn't `get it' right away, name is just ok
 \item We asked for 5 designs: they were all as good (link to transcript). For space, don't include
-\item Repetitious: three designs on data sharing (weaponized against the user, twice in the form of ads and once in the form of insurance premiums). 
-\item Not designs: hiring bot that is biased or algorithm for personalized social media feed: valid criticism, but have already been made (AI ethics 101), exist not speculative
-\item Titles are boring
-\item We tried for subtle, humorous, variety - not reflected
 
 \end{itemize}
 
