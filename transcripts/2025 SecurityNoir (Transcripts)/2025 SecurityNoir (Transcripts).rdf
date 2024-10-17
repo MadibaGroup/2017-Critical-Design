@@ -1,0 +1,242 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#">
+    <bib:Document rdf:about="https://chatgpt.com/share/4be6016c-7eb0-4063-936a-2a145e925a19">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2442"/>
+        <dc:title>Critical Design: Final</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chatgpt.com/share/4be6016c-7eb0-4063-936a-2a145e925a19</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-27 19:10:22</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2442">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2442/Critical Design Final.html"/>
+        <dc:title>Critical Design Final.html</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chatgpt.com/share/4be6016c-7eb0-4063-936a-2a145e925a19</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-27 19:10:23</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://chatgpt.com/share/237f70de-d08d-4830-b8f8-977de7512807">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2444"/>
+        <dc:title>Critical Design: Polish: ElephantMind</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chatgpt.com/share/237f70de-d08d-4830-b8f8-977de7512807</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-27 19:07:36</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2444">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2444/Critical Design Polish AR.html"/>
+        <dc:title>Critical Design Polish AR.html</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chatgpt.com/share/237f70de-d08d-4830-b8f8-977de7512807</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-05-27 19:07:36</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="https://chatgpt.com">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ChatGPT</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2684"/>
+        <dc:title>Critical Design: Polish: Square One 1</dc:title>
+        <dcterms:abstract>Shared via ChatGPT</dcterms:abstract>
+        <z:language>en-US</z:language>
+        <z:shortTitle>Critical Design</z:shortTitle>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://chatgpt.com</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-06-28 19:24:08</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2684">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2684/fdf2764b-2c8b-42d5-aada-bfc5f0d0dcac.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chatgpt.com/share/fdf2764b-2c8b-42d5-aada-bfc5f0d0dcac</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-06-28 19:24:09</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="#item_2685">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ChatGPT</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2686"/>
+        <dc:title>Critical Design: Polish: Square One 2</dc:title>
+        <dcterms:abstract>Shared via ChatGPT</dcterms:abstract>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://chatgpt.com</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-06-28 19:24:10</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2686">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2686/ff5c6451-9fb4-4021-88b9-e4df181d6776.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chatgpt.com/share/ff5c6451-9fb4-4021-88b9-e4df181d6776</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-06-28 19:24:11</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="#item_2728">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ChatGPT</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2729"/>
+        <dc:title>Critical Design: Polish: Treasure Hunt</dc:title>
+        <dcterms:abstract>Shared via ChatGPT</dcterms:abstract>
+        <z:language>en-US</z:language>
+        <z:shortTitle>Critical Design</z:shortTitle>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://chatgpt.com</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-07-05 18:30:01</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2729">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2729/1421429f-6310-4bd7-8e83-202f9e8108ed.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chatgpt.com/share/1421429f-6310-4bd7-8e83-202f9e8108ed</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-07-05 18:30:02</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="#item_2732">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ChatGPT</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2733"/>
+        <dc:title>Critical Design: Polish: Profiled Plates</dc:title>
+        <dcterms:abstract>Shared via ChatGPT</dcterms:abstract>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://chatgpt.com</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-07-05 18:32:38</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2733">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2733/5a541220-b6d4-4faf-9b2e-4a979a6bbdf1.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chatgpt.com/share/5a541220-b6d4-4faf-9b2e-4a979a6bbdf1</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-07-05 18:32:38</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="#item_2735">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ChatGPT</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2736"/>
+        <dc:title>Critical Design: Polish: Civic Compass</dc:title>
+        <dcterms:abstract>Shared via ChatGPT</dcterms:abstract>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://chatgpt.com</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-07-05 18:56:40</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2736">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2736/4814bd4f-bfcd-485b-9f19-78889ee93eb9.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chatgpt.com/share/4814bd4f-bfcd-485b-9f19-78889ee93eb9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-07-05 18:56:42</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <bib:Document rdf:about="#item_2739">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>ChatGPT</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <link:link rdf:resource="#item_2740"/>
+        <dc:title>Critical Design: Brainstorm</dc:title>
+        <dcterms:abstract>Shared via ChatGPT</dcterms:abstract>
+        <z:language>en-US</z:language>
+        <dc:identifier>
+           <dcterms:URI><rdf:value>https://chatgpt.com</rdf:value></dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-07-12 18:53:51</dcterms:dateSubmitted>
+    </bib:Document>
+    <z:Attachment rdf:about="#item_2740">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/2740/4e1a8067-83d0-429a-ba53-18a33b20d563.html"/>
+        <dc:title>Snapshot</dc:title>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://chatgpt.com/share/4e1a8067-83d0-429a-ba53-18a33b20d563</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2024-07-12 18:53:52</dcterms:dateSubmitted>
+        <z:linkMode>1</z:linkMode>
+        <link:type>text/html</link:type>
+    </z:Attachment>
+    <z:Collection rdf:about="#collection_177">
+       <dc:title>Brainstorm</dc:title><dcterms:hasPart rdf:resource="#item_2739"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_178">
+        <dc:title>Final</dc:title>
+        <dcterms:hasPart rdf:resource="https://chatgpt.com/share/4be6016c-7eb0-4063-936a-2a145e925a19"/>
+    </z:Collection>
+    <z:Collection rdf:about="#collection_179">
+        <dc:title>Polish</dc:title>
+        <dcterms:hasPart rdf:resource="https://chatgpt.com/share/237f70de-d08d-4830-b8f8-977de7512807"/>
+        <dcterms:hasPart rdf:resource="https://chatgpt.com"/>
+        <dcterms:hasPart rdf:resource="#item_2685"/>
+        <dcterms:hasPart rdf:resource="#item_2728"/>
+        <dcterms:hasPart rdf:resource="#item_2732"/>
+        <dcterms:hasPart rdf:resource="#item_2735"/>
+    </z:Collection>
+</rdf:RDF>
