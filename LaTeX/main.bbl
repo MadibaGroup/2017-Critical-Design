@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{24}
+\begin{thebibliography}{26}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -182,6 +182,43 @@
 \newblock \bibinfo{thesistype}{Master's\ thesis}. \bibinfo{school}{University
   of the Arts London}.
 \newblock
+
+
+\bibitem[Harper et~al\mbox{.}(2024)]%
+        {harper_conceptual_2024}
+\bibfield{author}{\bibinfo{person}{Colton Harper}, \bibinfo{person}{Keith
+  Tran}, {and} \bibinfo{person}{Stephen Cooper}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Conceptual {Metaphor} {Theory} in {Action}:
+  {Insights} into {Student} {Understanding} of {Computing} {Concepts}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 55th {ACM} {Technical}
+  {Symposium} on {Computer} {Science} {Education} {V}. 1}}
+  \emph{(\bibinfo{series}{{SIGCSE} 2024})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{463--469}.
+\newblock
+\showISBNx{9798400704239}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3626252.3630812}
+\showDOI{\tempurl}
+
+
+\bibitem[Holley et~al\mbox{.}(2023)]%
+        {holley_teaching_2023}
+\bibfield{author}{\bibinfo{person}{Buffie Holley}, \bibinfo{person}{Dan
+  Garcia}, {and} \bibinfo{person}{Julia Bernd}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Teaching {Cybersecurity}: {Introducing} the
+  {Security} {Mindset}}. In \bibinfo{booktitle}{\emph{Proceedings of the 54th
+  {ACM} {Technical} {Symposium} on {Computer} {Science} {Education} {V}. 2}}
+  \emph{(\bibinfo{series}{{SIGCSE} 2023})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1185}.
+\newblock
+\showISBNx{9781450394338}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3545947.3569637}
+\showDOI{\tempurl}
 
 
 \bibitem[Huang and MacNeil(2023)]%
