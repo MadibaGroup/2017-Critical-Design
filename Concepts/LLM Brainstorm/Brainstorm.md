@@ -83,14 +83,124 @@ Then we randomly picked one item from each list and wrote a paragraphe-long scen
 
 
 
-
-
-
-
-
-
-
-
 ===
 
 So, could you randomly pick one item from those lists (one from each: message list, medium list, form factor list and response list) and write a paragraph-long scenario?
+
+
+
+======
+
+
+
+New input for Brainstorm:
+
+\- AI hallucinations
+
+\- Amusing 
+
+\- Anonymity sets
+
+\- Anger
+
+\- AR Device
+
+\- Attenuate disturbing UI elements
+
+\- Being watched changes your behaviour
+
+\- Can’t undo data disclosure
+
+\- Chat AI
+
+\- Chatbot (human-like)
+
+\- Change the regular design medium to an unexpected one (ex: audio to visual)
+
+\- Contemplative
+
+\- Crime and privacy
+
+\- Creating dilemmas
+
+\- Data doubles (Self tracking - Gina Neff)
+
+\- Data has a social life (personify data?)
+
+\- Data is extension of your body
+
+\- Different rules online than offline
+
+\- Disclosed data will be run on the algorithms of the future
+
+\- Embedding human bias into algos (visualize this?)(Weapons of Math Destruction Cathy O’Neil)
+
+\- Embarrassing
+
+\- Everyone else is doing it
+
+\- Facial Recognition
+
+\- Finances
+
+\- Fitness tracking devices
+
+\- Folk models of privacy
+
+\- Funny
+
+\- Genomics
+
+\- Haptics
+
+\- Health Records
+
+\- Hiding in plain sight
+
+\- ID
+
+\- If you don’t pay for the product, you are the product
+
+\- Least privilege
+
+\- Lights
+
+\- Location
+
+\- Memes
+
+\- Minimal Disclosure
+
+\- Passwords
+
+\- Permissions (apps, cookies, etc)
+
+\- Present users/machines as victims
+
+\- Print out
+
+\- Project a behaviour online to offline setting
+
+\- Right to be Forgotten
+
+\- Sad
+
+\- Scary
+
+\- Security through obscurity
+
+\- Show a counterfactual
+
+\- Smart Phones
+
+\- Smart TV
+
+\- Social Networks
+
+\- STRIDE
+
+\- Surprising/Startling
+
+\- Targeted Advertising
+
+\- User Fatigue
