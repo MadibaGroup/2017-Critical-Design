@@ -2,8 +2,6 @@
 
 Prompt: 
 
-
-
 We are trying to come up with examples of "critical design" that illustrate issues in the areas of security, privacy, algorithmic bias, fairness, transparency, or other related subjects. The deliverable will be a short description of the design. I will give a few examples of critical designs and their descriptions (although these are not necessarily critical in terms of security and privacy).
 
 Compass Table: by A. Dunne and F. Raby
@@ -21,25 +19,55 @@ Question: The first step in our design methodology is to generate "HMW" question
 
 ---
 
+Here are some HMWs that we found most useful. Can you consider them and suggest 10 more. Do not reword the exiting ideas, but suggest new ideas that are not covered well by these. 
+
+* **HMW get the reader to think new thoughts about security/privacy/etc? 🔵🔵🔵**
+
+* **HMW create a quick process to test and iterate the vignette? 🔵🔵**
+
+* **HMW give interesting names to our designs? 🔵🔵**
+
+* **HMW use popular story structures (e.g., The hero's journey, three-act structure) to create variation and interest,but also provides the narrative with some structured elements, such as the order of events. 🔵🔵**
+
+* **HMW avoid repetition in the designs or avoid "sink holes" of a bunch of designs being the same🔵🔵**
+
+* **HMW give interesting names to our designs? 🔵🔵**
+
+* **HMW use humour, satire, irony, and absurdity in critical designs to critique certain issues 🔵🔵**
+
+* **HMW draw inspiration from other sources (TV shows, books, films) such as dystopian books like 1984, Brave New World, and shows like Black Mirror, Love Death and Robots****
+
+  **🔵🔵**
+
+* **HMW: Start with the deliverable, break it into components, and then think about developing each component**
+
+* **HMW come up with a procedure, tool etc that will help us to create scenarios based on ideation cards, prompts or "stems"? 🔵**
+
+* **HMW we identify the best narrative structure(s) for critical designs (the vignette) (ex: describe design, narratives, climax). 🔵**
+
+* **HMW: Learn from speculative fiction, security fiction 🔵**
+
+* **HMW explore aspects of security or privacy that are overlooked by the users so that focus on these aspects in our designs? 🔵**
+
+* **HMW break the mold of past work and make the project our own? 🔵**
+
+* **HMW ensure our "designs" are actually designs and consist with design principles? 🔵**
+
+* **HMW give the narratives more relevance to what people care about**
+
+  **and relatable 🔵**
+
+  **HMW make the critique intuitive and between the lines of what we say, rather than a lecture?**
+
+  **🔵**
+
+  **HMW make designs that are "sticky" and readers will remember after, say, 1 week of reading the paper? 🔵**
 
 
 
 
-Possible methodologies
 
-* How might we?
-  * Beyond just identifying the problem
-  * How might we generate XXX designs
-    * Sticky notes
+
 
 ---
 
-
-
-* Rapid ideation
-  * Rapid 8's
-* Collaborative ideation
-  * Converging / diverging
-  * Individuals, merge (affinity mapping), fold (physical heat map) 
-    * Vote before discussing
-* Problem statement
