@@ -23,11 +23,13 @@
 
 * We "tested" the cards. Each of us drew one card from each suit and came up with a design. We repeated this to see how we draw cards (keep drawing 2 cards until we find an idea, keep the one we like and continue drawing friom the other suit etc.), whether the combinations lead to ideas.
 
-* Then each of us looked at all of the cards to either present alternatives to the card content itself (changes regardign the title and/or the description) or we suggested to keep them as is.
+* Then each of us looked at all of the cards to either present alternatives to the card content itself (changes regarding the title and/or the description) or we suggested to keep them as is.
 
 * We also merged/unmerged cards, discussed whteher the card is a good fit for its suit.
 
 * We applied the MoSCoW method to determine the most important, relevant cards to keep in the deck.
+
+* March 5, 2025: We started to go over each ideation card to finalize them (decide whether to keep a card, refine the description and the title, choose among the alternatives of the same card)
 
   
 
