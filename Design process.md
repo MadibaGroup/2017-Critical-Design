@@ -31,5 +31,11 @@
 
 * March 5, 2025: We started to go over each ideation card to finalize them (decide whether to keep a card, refine the description and the title, choose among the alternatives of the same card)
 
+* We decided on a "final" set of cards after several iterations on the cards (which involved merging, deleting, moving the cards between the two categories, rewording): 37 critique and 30 design cards.
+
+* May 14, 2025: we decided to conduct an autoethnography  
+
+* May 21, 2025: we decided on what to report for each diary entry and created the required fields in the form. We decided to record 4 entries each until our next meeting.
+
   
 
