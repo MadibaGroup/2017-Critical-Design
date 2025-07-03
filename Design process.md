@@ -45,6 +45,24 @@
   * Another way to interact with ChatGPT is to discuss the card itself (not necessarily about a particular technology, app etc.)
   * Where does your design stand between sci-fi and plausible tech (closer to what we use,have now)? A desing can be a futuristic version of an existing tech.
   * Another aspect that would make a critical design strong could be showing how it affects the society. Not simply a descritpion of a sci-fi scene, but also thinks about the societal changes it triggers, like the everyday life aspect of it. 
+* July 2, 2025: 
+  * We discussed our experience about creating three designs using the same two cards (Phishing and Doomscrolling). We all think that the third one was more difficult.
+  * We started co-designing during this session. The cards we drew were Deceptive Design and Finances.
+  * We brainstormed about what the cards mean. 
+  * For deceptive design: not necessarily intented to be evil directly. Some examples: Aceept button is more prominent than decline, sneak to the basket, convincing not to opt out, comparison with nudging and bright patterns. 
+  * Can we use deceptive design for a good purpose like preventing the users from making a catastrophic error?
+  * Discussed what the artifact should be and what the narrative should be, what the critique is
+  * Creating intentional friction for the users: like speed bumps for security reasons, similar to physical cues like fences
+  * We discussed different type of narratives (once we have the design, we can write it in several different styles):
+    * Description, why it is good, what went wrong
+    * Museum artifact
+    * Newspaper article
+    * Like a tale
+    * First-person narration
+    * User reviews 
+    * Ad for the product
+    * Humorous, dystopian, scary...
+  * We noted down the main points we discussed and decided to come up with a design (or a sketch of it) individually, without the help of AI. We'll each submit the designs throught the form we used for autoethnography.
 
 
 
