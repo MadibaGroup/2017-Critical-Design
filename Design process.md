@@ -63,27 +63,22 @@
     * Ad for the product
     * Humorous, dystopian, scary...
   * We noted down the main points we discussed and decided to come up with a design (or a sketch of it) individually, without the help of AI. We'll each submit the designs throught the form we used for autoethnography.
-
 * July 9, 2025: 
 
   * We discussed the titles of the vignettes. A title for the narrative vs using the name of the artifact as the title
-
-  * One of the conclusions we drew from this experiment: ideation cards work
-
+* One of the conclusions we drew from this experiment: ideation cards work
   * 5 different versions of the same design to show that there are no rules to prescribe for a design. 
-
-  * We’ll come up with criteria that differentiates a good design. These criteria can be general for any type of critical design.
-
+* We’ll come up with criteria that differentiates a good design. These criteria can be general for any type of critical design.
   * We discussed how we can analyze our diary entries. Two options: thematic analysis and affinity diagramming, using Miro vs Taguette 
-
-  * We concluded that the entries for the personal reflections are too long for affinity diagramming and it will be better to use thematic analysis
-
+* We concluded that the entries for the personal reflections are too long for affinity diagramming and it will be better to use thematic analysis
   * We'll start with open coding
-
-  * We also discussed the relevance of inter rater reliability and reflexive thematic analysis.
-
+* We also discussed the relevance of inter rater reliability and reflexive thematic analysis.
   * We decided to randomize the entries and each of us will code separately the first 20 entries 
-
-  * Next meeting, we'll compare our tags to determine a common codebook 
-
+* Next meeting, we'll compare our tags to determine a common codebook 
   * Each week we'll code in batches of 20 and discuss+compare iteratively to make sure that the themes align
+* July 23, 2025:
+  * We discussed how each of us did the coding.
+  * We decided that it would be useful to have a categorical label for each code.
+  * We also discussed how to code the parts that we weren't sure how to categorize. (assigning miscellaneous and then deciding which code to assign)
+  * We will decide how to share the codebooks to reach a consensus. (And using affinity diagramming to analyze later)
+  * We'll add descriptions to each code.
