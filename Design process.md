@@ -82,3 +82,9 @@
   * We also discussed how to code the parts that we weren't sure how to categorize. (assigning miscellaneous and then deciding which code to assign)
   * We will decide how to share the codebooks to reach a consensus. (And using affinity diagramming to analyze later)
   * We'll add descriptions to each code.
+* September 17, 2025: 
+  * We have each been doing the coding of the diary entries for the past few weeks.
+  * We decided to export the codes to Freeform and cluster the codes around common themes, so that we see the overlap of themes among codebooks. 
+  * Reflexive thematic analysis
+  * Explaining how we did the coding.
+  * We also occasionally go over our codes to rearrange them as we code more excerpts.
