@@ -88,3 +88,8 @@
   * Reflexive thematic analysis
   * Explaining how we did the coding.
   * We also occasionally go over our codes to rearrange them as we code more excerpts.
+* October 1, 2025:
+  * We discussed our strategies for coding. Our codebooks ahave different level of granularity in terms of the tags but we mostly identified similar concepts (even though each may have named it slightly differently) like prompt strategy, design strategy, narrative structure, what we liked about our design, inspirations, emotions, creative process, self-criticism, evaluation of the methodology itself, disucussion about how the cards are used in the process.
+  * Some other questions emerged: do we need ideation cards? Is AI helpful? When it is not helpful, was it beacause the prompt wasn't good ?
+  * Ideas about working on the desings more: changing the narrative style, illustrating them.
+  * Practical applications: will it be educative content? or more like an art exhibition? a website? or tag them into categories and randomly choose a vignette to read under a category?
