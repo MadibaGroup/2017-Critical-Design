@@ -93,3 +93,19 @@
   * Some other questions emerged: do we need ideation cards? Is AI helpful? When it is not helpful, was it beacause the prompt wasn't good ?
   * Ideas about working on the desings more: changing the narrative style, illustrating them.
   * Practical applications: will it be educative content? or more like an art exhibition? a website? or tag them into categories and randomly choose a vignette to read under a category?
+* November 5, 2025:
+  * We went over the whole design process and shared insights about the coding process of the diary entries.
+  * The themes emerged during the coding process are rather the insigths about the process.
+  * HMW used to explore what we'd like to achieve. Ex: avoid clichés, draw inspiration from different things, how to make ideation cards, etc.
+  * We then dot voted on the most important things and then, come up with the ideation cards.
+  * Present the process with double diamond?
+  * We can also summarize the whole process into three stages: brainstroming with HMW, creating ideation cards and the diary study.
+  * How to create ideation cards and how to use them are two different processes.
+  * Reflexive thematic analysis
+  * Some themes explored: Whether human-AI collaboration worked well or not, human limitations, general process of generating the vignettes ...
+  * Usefulness of ideation cards: Are the deigns as good as the cards? No, it is more like a starting point.
+  * Diary studies were the quality control for the cards.
+  * Are the designs themselves good? One of the things we look at how well the story is told: open-ended, absurd, writing of the narrative
+  * Cards✅ it is not about improving the cards. But what about the design process? What if we gave up early in the design process and that's why we weren't happy with a certain vignette?
+  * Each if us will chose top 8 best designs from two piles: ones created using ideation cards and the ones created before ideation cards. We'll reflect on the process:  what we liked or didn't like about a design and how it effected our choice, was it easy to chose the designs...
+  * We also discussed the possibility of illustrating the top desgins we choose at the end.
