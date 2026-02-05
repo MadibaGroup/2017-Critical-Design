@@ -1,0 +1,221 @@
+% !TEX root = ../main.tex
+
+% = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = %
+
+\section{Introductory Remarks}
+
+\input{figures/examples.tex}
+
+%\textblue{Opening sentence.}
+
+% Stems from ChatGPT:
+%What if the technologies we [use] are quietly reshaping the boundaries of privacy and control?"
+% innovations that... betray us
+% When privacy is reduced to a setting and security to a feature...
+% darker side of convenience
+% risks that are normalized and overlooked
+
+%Security is about more than keeping threats out; it is about questioning who we let in, and why. When privacy is a `setting' and security is a `feature,' our research community should continue looking at new ways of promoting insight and awareness over the shifting boundaries of privacy and control. 
+
+
+Critical design is commonly attributed to Dunne and Raby~\cite{DuRa01,Dun05} however it can be seen as a refinement of earlier movements in arts and design, beginning with the Italian radical design movement and extending through critical practice in HCI~\cite{Mal17}. Consider the three examples provided in Table~\ref{tab:examples}. Each describes the design of an object or technology. In contrast to industrial design, these technologies are not oriented around problem-solving, nor the creation of solutions that are functional, useful, and pleasurable, nor are they meant for mass production. Rather they offer a subtle criticism by illustrating something---electromagnetic radiation, the inevitability of death, the ubiquity and stealth of surveillance---that typically goes unquestioned. They are designed to invoke a dilemma for the user, raising questions, challenging values, and stimulating debate. Critical design considers these goals to be the function (or `para-function'~\cite{Dun05}) of the concept. %, enabling traditional design approaches to maximizing this functionality. 
+
+Critical design has significant overlap with conceptual art, utilizing common methods, and has been disseminated through exhibitions and the art literature. However critical design works by showcasing things that are plausible, believable, and easy for the reader to situate, requiring design practice. Viewing critical design as art creates challenges. Consider the compass table (from Table~\ref{tab:examples}) in the context of an art gallery exhibit---it is meant to illustrate electromagnatic radition in every day life, in one's home, in different positions and orientations within that home---all of this is lost when it sits statically in a gallery. Should critical design be displayed in galleries, a vignette or film or narrative will often accompany the object to describe its context of use.
+
+%\paragraph{Relation to Science.} 
+%
+%Critical design is ideological. Science can be as well. Even cryptography, positioned as one of the most scientifically rigorous pursuits in the field of security and privacy, is ideological, as argued eloquently by Rogaway in a recent keynote~\cite{Rog15}. For example, he notes that work on bland-sounding subjects like differential privacy and identity-based encryption are premised on a certain values and world views---respectively, one of massive data collection and one of government-escrowed master decryption keys. His point is that work in these areas \textit{affirm} certain ideologies; it is \textit{affirmative} design and more cryptographers should consider what is it that their designs affirm?
+%
+%From a different angle, Herley and van Oorschot question which aspects of security, privacy, and cryptography are even a proper science~\cite{HvO17}. Critical design is certainly not an objective form of design where success can be measured. We purposely do not set out to `measure' the success of our designs as this deeply misses the point of critical design. While our designs are for scientists, engineers, and technologists, it is not to establish theorems or facts but to raise new questions and communicate risks and invasions in a new way.
+
+\subsection{Contributions}
+
+\paragraph{Security \& Privacy.} Security and privacy risks are often intangible and invisible, making concepts difficult to communicate to everyday users. We saw a parallel to electromagnetic radiation in this regard, and considered if critical design could similarly aid in illuminating risks. 
+
+\paragraph{Vignettes.} Critical designs are commonly described through vignettes. Occasionally they are built and displayed. In the case of Dunne and Raby's Compass Table (and the seven other objects in their \textit{Placebo} project~\cite{DuRa01}), the table was built and given to individuals to use. This field study was followed by an exit survey on how the participants felt about the object. In this paper, we describe our designs through short vignettes that illustrate its design and use case. If they are a successful design, the reader should easily imagine its use in their life and question it critically, resulting in its `rhetorical use'~\cite{Mal17} rather than practical use. These designs are transgressive and intended to provoke the reader's emotions; invoking humour, satire, ridicule, poetry, playfulness, lewdness, appropriation, irreverence, or deliberate overcompensation.
+
+\paragraph{Methodology.} In order to generate designs, we report on four methodologies. First, we (a) used traditional design methodology to generate 10 designs (Section~\ref{sec:meth1}). We then experimented with the generative AI tool \gpt \gptv. Then we (b) fed our designs to \gpt and asked it to generate new designs (Section~\ref{sec:meth2}). It effortlessly generated designs that initially seemed sound, but under greater scrutiny, were lacking. We then (c) experimented with giving \gpt a sketch of what a possible design could involve and then dialogued with it to develop and refine the design, using it is a collaborative tool (Section~\ref{sec:meth3}). We found this approach produced good results and was less effort than method (a). Finally we (d) educated \gpt on the entire design process (Section~\ref{sec:meth4}), trying to involve it in the earliest stages of design (as opposed to (c) where we involved it after we had an initial sketch of an idea). We found this approach was less effective. In our experience, \gpt is capable of assisting in designs but requires human guidance and intervention. Generative AI's strength is in generating large volumes of ideas, while humans can contribute by curating and refining the best ideas.
+
+\subsection{Related Work}
+
+\paragraph{Critical Design for Security and Privacy}
+
+Much has been written on critical design and Malpass provides an excellent survey~\cite{Mal17}. Since our focus is security and privacy, we only summarize the following concepts, situated within or close to critical design, since they deal with issues of privacy: 
+
+\begin{compactlist}
+\item \textbf{The Pillow.} Dunne and Gaver's design takes the form factor of a transparent pillow and plays radio signals it picks up from the technology of that time: \eg phones, pagers, and baby monitors~\cite{DuGa97}. It challenges users to consider how confidential these signals are.  
+\item \textbf{Open Informant.} Described in Table~\ref{tab:examples}, this design exposes nation-state surveillance.
+\item \textbf{United Mirco-Kingdoms.} Dunne and Raby reimagine the UK as four `supershires' where one is occupied by `digitarians:' extreme technocrats ruled by algorithms in a state of total surveillance.  
+\item \textbf{Alternet.} While not critical design, Gold's Alternet has the similar intention of provoking thought through design~\cite{Gol14}. The internet is re-imagined with users retaining full control over their private data, touching on web tracking and our growing digital dossiers. 
+\end{compactlist}
+
+We are unaware of any attempt to build a systematic set of examples based on security or privacy, nor much attention to it from academic research papers, however critical design has been used in other areas of computer science. The uptake of critical design in HCI research is encouraged based on the anticipated value critical design will add to the field~\cite{bardzell_what_2013}. Speculative design is another related concept that HCI researchers rely on. An example is to analyze and question the usage of a certain technology and the consequences of it in the near future~\cite{lawson_problematising_2015}. Ludic design is also utilised to create designs that do not dictate a certain purpose or usage but rather leave the interpretation to users~\cite{gaver_drift_2004}.
+
+\paragraph{Methodologies for Design Creation and Evaluation} 
+While design process can be based on well-established methods, that are relevant to us, like whiteboarding, using sticky notes, affinity diagrams; the integration of AI to the creation process has been proliferated with the abundance and the variety of AI-based tools. These tools can be used to generate the content itself or help the designer along the process of creation and ideation. There are also works that examine how users prompt generative AI (~\cite{sanchez_examining_2023}, ~\cite{chang_prompt_2023}); utilize generative AI for co-ideation or co-creation~\cite{tholander_design_2023},\cite{chiou_designing_2023}.
+
+There are also efforts towards creation of computational tools to that would assist task that are manually done in general. One line of work is about creating tools to group design aspects to help ideation and exploration of design solutions\cite{huang_designnet_2023}. Speculative design is also used to imagine the future of the tools based on generative AI~\cite{lin_generative_2023}. Custom-made AI tools are proposed for specific design goals like integrating context awareness\cite{fan_contextcam_2024}.
+
+While we only created the designs and did not apply any techniques to evaluate them, there are several methodologies for this purpose. User studies like interviews and surveys are one of the most common techniques employed~\cite{sanchez_examining_2023}, ~\cite{chang_prompt_2023}. They are deployed to evaluate different aspects of the design process like assesing the utility of the AI-tools used during the design process, understanding users' needs or deploying a participatory workshop. Methods to asses the creativity of AI-generated content are also proposed~\cite{chakrabarty_art_2024}.
+
+\paragraph{Alternative Pedagogy} 
+
+Somewhat related to critical design, there are works on finding alternative ways (like design fiction~\cite{loureiro-koechlin_vision_2022}, role playing game~\cite{merrill_security_2020}, science fiction and design fiction~\cite{wong_real-fictional_2017}) to explain tricky concepts not only in security but also in other fields like sensing technologies.
+
+CS education literature has explored how to teach concepts related to computer science in general or cybersecurity to a diverse audience. Some of which are understanding how CS students perceive AI and cybersecurity~\cite{ojha_computing_2023}, using visual cryptography for explaining concepts to K-12 students~\cite{rayavaram_designing_2023}, how to initiate a security mindset~\cite{holley_teaching_2023}. Studying the metaphors used in CS education gives important insights about how students perceive certain concepts~\cite{harper_conceptual_2024}.
+
+
+
+% = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = %
+% Method A
+
+\section{Methodology A: Traditional Design}
+\label{sec:meth1}
+
+\subsection{Methodology}
+
+\begin{figure*}[t]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/brainstorming.pdf}
+\caption{Final affinity board after brainstorming. Not intended to be legible; intended to communicate the scale of the board.\label{fig:board}}
+\end{center}
+\end{figure*}
+
+
+Our research goal was to create critical design vignettes illustrating security and privacy issues. We will first describe our design methodology for human designers. We began by reviewing the critical design literature, and we settled on delivering vignettes, which would be short paragraphs describing a new technology and illustrating, with short narratives, how it functions and the feelings it might invoke. The technology is meant to be plausible in the near future (the reader can conceive why someone, somewhere might think it is a good idea), while also showing the darker side of convenience, risks that are normalized and overlooked, or ways a user might be betrayed by the technology. During this period, we were encouraged to notice `found examples' of critical design in the wild, although perhaps not expressed that way.\footnote{For example, well-known cryptographer Matthew Green tweeted: \textit{There’s an entire class of browsing many folks will feel uncomfortable doing if their browser has a little icon in the window that says “Hi <User> I know this is you!” This is Human Behavior 101}.}
+
+We settled, after some trial and error, on a digital (Apple Freeform) `sticky notes' methodology to generate affinity maps, where we clustered our notes in four groups: (1) security and privacy concerns (\eg `if you don't pay for the product, you are the product'), misconceptions (\eg `nothing to hide'), or principles (\eg `minimal disclosure')  that could be the basis of a critique; (2) domains where users might especially care about security or privacy (\eg health records or social networks); (3) a form factor for the new technology (\eg haptics or extended reality); and (4) a possible user response (\eg amused or embarrassed). Figure~\ref{fig:board} shows our board. Artefacts, including this board, are available on our GitHub repository.\footnote{GitHub: \url{https://github.com/MadibaGroup/2017-Critical-Design}} We brainstormed around individual notes and drew random combinations to spur divergent thought. The design methodology provided structure but did not make designing simple. Each of our 10 designs was quite difficult to develop, each taking many hours of discussion and dozens of discarded ideas that we could not translate into designs. 
+
+\textcolor{red}{New methodology}
+\begin{itemize}
+	\item We started by analyzing the different methods of design (divergent, convergent, mapping, prototyping...)
+	\item We decided to follow a divergent method:  the \textit{How might we?} (HMW) technique from design thinking. starting from the general problem statement, each of has created \textit{How might we?} cards. The cards reflected different aims we had for the design we will create like how might we provoke reflection of societal and ethical issues, make the narratives more relatable or create ideation cards that can eventually helps wit coming up with the vignettes. We also tried ChatGPT for creating the card (\textcolor{red}{Any reflections on how it went?}). We then grouped the HMW cards around similar topics and applied dot voting to determine the most important questions.
+	\item We also gathered images, news, concepts etc that reminded us of the project and inspired us in an inspiration board.
+	\item We grouped the HMW cards we created (with and without help of ChatGPT) under themes. We came up with five suits (themes) for ideation cards (Critical, design, scenario, narrative, stickiness). Then we decided to keep only critical, which determines the main topic to be critiqued, and design, which determines the medium. Then redistributed the cards under these two themes. The rest of the themes serves more as a checklist for a quality check for the designs created (for evaluating the narrative style, whether the vignette is memorable and powerful).
+	\item We divided the themes among ourselves so that each of us had cards from each suit (critical and design). Then we each created ideation cards based on the theme with the format: title and description.
+	\item We then tested the cards. Each of us drew one card from each suit and came up with a design. We repeated this to see how we draw cards (e.g., keep drawing 2 cards until we find an idea, keep the one we like and continue drawing from the other suit, draw more than 2 cards from each category) and whether the combinations lead to ideas.
+	\item We then refined the cards. Each of us looked at all of the cards to either present alternatives to the card content itself (changes regarding the title and/or the description) or we suggested to keep them as is. We also merged/unmerged cards, discussed whether the card is a good fit for its suit. 
+	\item After the initial refinement, we applied the MoSCoW (Must Have, Should Have, Could Have and Won't Have this time) method to determine the most important, relevant cards to keep in the deck.
+	\item After several iterations of refinement of the cards involving merging, deleting, moving the cards between the two categories and rewording; we finalized a deck of 37 critique and 30 design cards.
+	\item We conducted an autoethnography for our design process (\textcolor{red}{See section XX}). Each of us created a design a day using the ideation cards. We created a template for our diary entries. We each created a first set of diary entries, and then we refined the fields in each entry to provide a comprehensive overview our design process.(\textcolor{red}{Add the fields we filled each time, also add the total number of design, how long it took etc.})
+	\item We also tried co-designing and creating three designs each, using the same two cards (one from design, one from critical)
+	\item We performed thematic analysis on our diary entriess (\textcolor{red}{See section XX}).
+\end{itemize}
+\subsection{Designs}
+
+\design{Crystal Avatars}{Crystal avatars are created instantly but only gets better over time. At first, they are not recognizable and cannot be differentiated from other users, but as users browse the site, small details crystallize. Alice is happy to save time registering for the site and have a personal avatar, which automatically added a cat accessory after she spent a lunch hour reading about hairball treatments. However she grows uneasy about the "Woman, Life, Freedom" badge, a cause she believes in but only vocalizes discriminately.}
+
+\design{Calm Watch}{Calm Watch is a smart watch that tracks anxiety levels based on several biomarkers. When the anxiety level of the wearer crosses a threshold, a haptic vibration pulse prompts the user to look at the watch. From there, they can select a variety of calming techniques, including breathing exercises and guided meditation. Bob is nervous to talk to Alice and becomes flustered when his watch starts vibrating mid-conversation, just loud enough for Alice to hear it and notice his fidgeting with the watch.}
+
+\design{Chatty}{The latest software update for Alice's voice-activated home assistant Chatty adds machine learning to better infer Alice's commands, such as adding items to her shopping list and suggesting music she might like. It does not always know whether Alice is talking to it or not, so over time it picks up on pieces of Alice's life and has trouble unlearning them. Alice is startled but pleased when Chatty chimes in with the name of `that actor who was in that thing' she was telling her friend about. She is bemused to find a specialized vinyl cleaning solution on her shopping list after she said Bob's records smells fishy.}
+
+\design{Dynamic Laughtrack}{Digital television content, such as sitcoms, encode laughtracks as a series of cues rather than an actual recording. Smart TVs listen and classify the viewer's level of laughter on a 10 point scale (with fine grain training over time). The TV adds laughter to the content in a sensitive and considerate manner, where the laughtrack is only marginally higher on the scale than the viewer's own laughter. This gently nudges the viewer to greater enjoyment of the program without bombarding her. It also mixes in actual past recordings of the viewer's own laughter to capitalize on emotional mirroring.}
+
+\design{Eleventh Finger}{Biometric authentication based on fingerprints is generally user-friendly and fast. Eleventh finger is a 3D printed rubber finger, customized with the user's fingerprint. You can put it on a keychain and use it on cold winter days when you do not want to remove your gloves. Alice lets her friend Bob borrow it when he stays at her house. It can also serve as a backup if the worst happens.}
+
+\design{GOTTCHA}{GOTTCHA is a human-detection system to protect online accounts being accessed by bots. It invokes the device camera to analyze if a live human is using the device. To protect against video replays or machine-generated video, it unexpectedly prompts the user with a randomly selected image and carefully measures their reaction to it. Micro-expressions are involuntary facial displays of emotion that are too fast to mimic artificially. GOTTCHA's image bank can provoke disgust, anger, fear, sadness, happiness, surprise or contempt. Over time, Alice stops visiting websites that use GOTTCHA because of its capricious tendency to mix in disturbing images.}
+
+\design{No(i)sy elevator}{Elevator music has never been regarded as elevating your mood. This is why employees will be happier riding the noisy elevator. When it recognizes a user, it spins up a selection from their most-played songs on major music streaming platforms. Alice finds hearing her favourite Miles Davis song grounds her at the start of each work day, while Bob and Carol, coincidently riding the elevator together, discover their shared love for 90s britpop. David is a bit more concerned about the profanity ridden banger that the nosy elevator plays for him and his boss.}
+
+\design{Receiver plant}{The receiver plant in the front yard of Alice records the information of the people that pass by. It is a greedy plant that needs to absorb enough bluetooth data to grow. Bob is singlehandedly responsible for its lustrous canopy from walking by Alice's house every day, mostly while checking his work emails on his phone. Perhaps the plant overstepped when it displayed, "you are 15 minutes late today, are you sure you can make it to work on time?"}
+
+\design{ToS Fishing}{ToS Fishing is a digital game where players earn points by hunting down excessive legalese on websites, including terms of service (ToS), privacy policies, and cookie policies. To play, users simply copy and paste the URL of the legalese. If the ToS has been seen before, the users are awarded points based on its word count. If it has not been seen before, it is reviewed by a human for validity and word count—and in this case, the user gets a finder's bonus. To mitigate people from launching custom websites, the game only accepts sites from the Alexis top million. Users display their aggregate score on a leaderboard with a profile showing their top catches (word count only, not the website), and can earn various badges for playing consistently.}
+
+\design{Wifi Projector}{Minimalist wifi routers have a single light indicator to show internet connectivity, such as a green light as opposed to red light. This understates the interesting and intriguing data flowing through the device as users browse the internet. By contrast, the wifi projector is a talkative router that projects visualizations onto the ceiling above where it is placed. Every website that pulls in scripts and cookies from other domains is displayed as a constellation of stars of various colours and sizes, which slowly fade away. While Alice's visit to dictionary.com is a beautiful galaxy, she is also perturbed by the number of ads and tracking companies surveilling her.}
+
+\subsection{Discussion}
+
+We will provide some of our \textit{stems}\footnote{In this context, `stems' refer to the core ideas, influences, or conceptual elements that contribute to the development of a design.} for one example: Eleventh Finger.  We felt that many of our designs were privacy-focused and we wanted a design that was explicitly security-focused. STRIDE is a threat modelling framework that outlines six high level categories of threats: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege~\cite{shostack2014threat}. We considered possible designs for each and Eleventh Finger came from our ideation around Spoofing. We tried to avoid privacy implications, even though they are important as well (the ACLU and EPIC were raising concerns about Disney's use of biometric fingerprint scanning at its parks). Biometrics are often considered the holy grail of authentication by non-experts for their simplicity, however they have drawbacks in the areas of entropy, revocation after theft, and delegation. At the hacker conference Def Con, researchers showed that biometric scanners, like those found in modern smartphones, can be tricked using 3D-printed fingerprints~\cite{levalle2020biometric}. We were open to using (dark) humour to avoid sounding too earnest in our designs. The reader can likely see how Eleventh Finger can emerge from these stems, however it is less apparent where the stems themselves came from (\eg from our academic backgrounds and personal experiences), nor the large number of stems we discarded because we could not see connections between them. 
+
+
+% = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = %
+% Method B
+
+\section{Methodology B: LLM Generated Designs}
+\label{sec:meth2}
+
+\subsection{Methodology}
+
+The design concepts in the previous section were developed before or independent from generative AI tools like \gpt. However, once these tools became available, we felt it would be interesting to determine how they might assist in generating designs. In particular, since we are developing written vignettes, large language models (LLMs) are the appropriate machine learning technique suited to this purpose. We began with the simplest methodology: we fed \gpt \gptv example designs from Section~\ref{sec:meth1} and asked for the generation of new designs. All transcripts are available on our GitHub repository.\footnote{GitHub: \url{https://github.com/MadibaGroup/2017-Critical-Design}}
+
+\subsection{Designs}
+
+The following are the first two designs generated by \gpt.
+
+\design{Transparent Wallet}{Alice's digital wallet automatically categorizes her purchases and shares anonymized spending habits on a public leaderboard. She enjoys seeing her eco-friendly purchases earning her top marks in the green consumer category. However, Alice is troubled when she notices ads for luxury items appearing more frequently after her high spending months are tracked and shared by the wallet~[\href{https://chatgpt.com/share/4be6016c-7eb0-4063-936a-2a145e925a19}{\gpt Transcript}].}
+
+\design{Echo Chamber Filter}{A social media app uses an advanced algorithm to filter content to match users' perceived political views and biases. At first, Alice appreciates the streamlined news feed with content she agrees with. Over time, she realizes her interactions are limited to a narrow worldview, reinforcing her existing beliefs and making it difficult to encounter differing perspectives or engage in meaningful discussions~[\href{https://chatgpt.com/share/4be6016c-7eb0-4063-936a-2a145e925a19}{\gpt Transcript}].}
+
+\subsection{Discussion}
+
+Transparent Wallet can be considered an example of critical design but Echo Chamber Filter is not. The latter makes a valid critique but it does not describe a new (speculative) technology, personalized feeds have been utilized by social media platforms for years and have been thoroughly criticized for exactly this point (\eg~\cite{snakeoil}). We asked for five designs and three of the designs, including Transparent Wallet, were based on the threat of data sharing being weaponized against the user (twice in the form of ads and once in the form of insurance premiums), demonstrating that \gpt can be highly repetitive. 
+
+Of all the five generated designs, Transparent Wallet was the closest to our own designs. It uses a similar structure: the design, plausible example of its intended use, and an unintended misuse. Gamification, data sharing, and algorithmic inference are all stems we ourselves considered (and even used) for our design. However we would work on improving what is being critiqued, which is pedestrian and straight-forward, strengthen the plausibility of Alice's willingness to share obviously sensitive personal data, and try to make the narrative clearer (we read it several times to `get it'). This led us to consider a methodology where we co-designed with \gpt to iterate and refine designs.
+
+
+% = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = %
+% Method C
+
+\section{Methodology C: LLM Collaborative Co-Designs}
+\label{sec:meth3}
+
+\subsection{Methodology}
+
+We began each design session with a new window in \gpt and started each session with the same prompt: a few sentences about using critical design for security and privacy (assuming it could reference for itself what these terms mean) and our manually created designs from Method A as samples. We then input a set of stems we had brainstormed and asked for ideas about possible designs. As an LLM, we did not concern ourselves with making the stems coherent or even grammatically correct---just enough words to trigger data around the subject. An example set of stems (which was used for the design ElephantMind below) are:
+
+\design{Stems}{Avoiding small talk; to know more about the person you meet; the app reminds you the last conversation you had with them; constantly reminding something trivial (Alice promised Bob to grab a coffee sometime. Next time Bob sees Alice the app reminds Bob what Alice said.); Summarize the last conversation you had with them; For a person you meet for the first time, device gives you some background info about them so that you choice the right topic of conversation.; Name for the app: something that is about never forgetting like having a memory like an elephant; Photographic memory; Or something related to recording everything}
+
+We then asked for examples along the lines of: technologies that could serve as the form factor for a critical design, potential names for the design, and examples of `things that could go wrong' with the technology. In most cases, we would ask for 10 examples. We would consider the examples and apply redirection if the examples were not what we were looking for; if they were, we would curate 1 or 2 that were workable and ask for further examples. At certain points, we would ask it to write a draft vignette and then manually edit it.
+
+\subsection{Designs}
+
+\design{BloodKey}{BloodKey is a form of two-factor authentication that can protect online accounts from stolen passwords. With BloodKey, after providing their password, users authenticate with a pin-prick blood test using an inexpensive biomedical Bluetooth gadget. BloodKey was quickly adopted by leading websites because it was very hard to fake, despite its invasive nature. However, Alice grew tired of the daily inconvenience of pricking her finger, so she gradually stopped logging into her social media accounts altogether, while Bob's medical condition prevented him from using it at all. A media frenzy ensued when the most popular free-to-play online game sold users' genomic data to pharmaceutical companies, boosting their revenue streams~[\href{https://chatgpt.com/share/1421429f-6310-4bd7-8e83-202f9e8108ed}{\gpt Transcript}]. }
+
+\design{Civic Compass}{Civic Compass is an add-on for popular GPS navigation apps that highlights the ethical considerations of various routes, such as avoiding surveillance hotspots or environmentally protected habitats. Public policy debates have emerged over the app's potential abuse by criminals. When Alice is in a rush, she ignores its suggestions. She is also disturbed to see that most of the surveillance hotspots are in impoverished, marginalized neighborhoods~[\href{https://chatgpt.com/share/4814bd4f-bfcd-485b-9f19-78889ee93eb9}{\gpt Transcript}].}
+
+\design{ElephantMind}{ElephantMind is an augmented reality (AR) social interaction app designed to enhance small talk by reminding users of past conversations. Alice cancels her coffee date with Bob when ElephantMind's service is down, fearing she won't remember their last chat. When Alice enthusiastically asks John about his trip to Paris, not knowing he was there for a difficult family matter, it leads to an awkward moment. Bob feels their friendship weakening as ElephantMind constantly pushes him to talk about trending political issues with Alice~[\href{https://chatgpt.com/share/237f70de-d08d-4830-b8f8-977de7512807}{\gpt Transcript}].}
+
+\design{Profiled Plates} {Profiled Plates is a technology for high-end restaurants that offers an extraordinarily personalized dining experience by using extensive data mining and online profiling. With just a reservation name, the restaurant gathers detailed information about guests and their friends from social media, public records, and online interactions to create a bespoke meal tailored to individual preferences and backgrounds. Alice books a table for her birthday and is thrilled to find her favorite flowers on the table and a menu that excludes cilantro, a dislike she once tweeted about. However the system led to a low tip from Bob when it served a meal highly customized for a different Bob Bradley~[\href{https://chatgpt.com/share/5a541220-b6d4-4faf-9b2e-4a979a6bbdf1}{\gpt Transcript}].}
+
+\design{Square One}{Square One is a smart deletion feature for social media accounts which resets interests, deletes content, and unfollows people based on a simple prompt from the user about what they want removed. Jack uses Square One to unremember a volunteer project he led, only to find that potential employers now see him as less community-minded and pass him over for jobs. Jack is dismayed as he watches these projects falter under less-qualified hires~[\gpt Transcripts \href{https://chatgpt.com/share/fdf2764b-2c8b-42d5-aada-bfc5f0d0dcac}{A} and \href{https://chatgpt.com/share/ff5c6451-9fb4-4021-88b9-e4df181d6776}{B}].}
+
+\subsection{Discussion}
+
+Our experience with this methodology was positive. \gpt excelled at providing countless examples and as long as it produced a few useful ones, we were able to work with it in refining them. We found this methodology required less effort than traditional design (A) and produced results at least as good. One issue we found is when we used new windows and settings to limit cross-contamination between sessions, we found \gpt seemed to remember past interactions. The primary drawback of this method was needing a set of stems before interacting with \gpt. For this reason, we decided to attempt a final methodology where we involved \gpt from the beginning of the design process. 
+
+% = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = %
+% Method D
+
+\section{Methodology D: LLM Design Methodology}
+\label{sec:meth4}
+
+\subsection{Methodology}
+
+\textblue{To be completed again. We performed this methodology but will revisit it with more time and effort.}
+
+In the previous methodology, we provided \gpt with stems and found success in iterating these stems into designs using \gpt as a collaborator.  This led us to question whether it would be useful to collaborate with \gpt from the very beginning of the design process, taking its input on setting up the design methodology, on finding additional sticky notes or different clusterings, and ideating through different combinations of sticky notes.
+
+\begin{itemize}
+\item Prompts about what methodology to use
+\item Prompts for help in clustering notes in affinity map
+\item Prompts for additional notes in each cluster
+\item Prompts for generating stems from combination of notes
+\item Prompts for expanding stems
+\item Once we have stems, go to Methodology C
+\end{itemize}
+
+\subsection{Designs}
+
+\textblue{To be completed}
+
+\subsection{Discussion}
+
+\textblue{To be completed}
+
+
+\section{Concluding Remarks}
+
+\textblue{To be completed}
+
+
+

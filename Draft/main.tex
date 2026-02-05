@@ -1,0 +1,71 @@
+\documentclass[sigchi]{acmart}
+
+
+% Page Numbers
+%\settopmatter{printfolios=true}
+
+% Shrink copyright stuff
+%\settopmatter{printacmref=false}
+%\renewcommand\footnotetextcopyrightpermission[1]{}
+%\usepackage{silence}
+
+
+% = = = = = Packages = = = = = %
+
+%\input{setup/packages}
+\input{setup/macros}
+
+% = = = = = Title = = = = = %
+
+\begin{document}
+
+\title{Security Noir: Critical Designs for Security \& Privacy}
+
+\author{Didem Demirag}
+\affiliation{\institution{UQAM} \city{Montreal} \state{QC} \country{Canada}}
+
+\author{Leah Zhang-Kennedy}
+\affiliation{\institution{University of Waterloo} \city{Stratford} \state{ON} \country{Canada}}
+
+\author{Jeremy Clark}
+\email{j.clark@concordia.ca}
+\orcid{0000-0002-3533-5965}
+\affiliation{\institution{Concordia University} \city{Montreal} \state{QC} \country{Canada}}
+
+\begin{abstract}
+
+In this paper, we investigate an alternative method for communicating the somewhat elusive security risks and privacy invasions of technology, the web, social networks, and other aspects of modern life. Specifically, we draw from the \textit{critical design} movement popularized by Dunne and Raby in the 90s. In this project, we have conceptualized 10 new technological designs and described their use through short vignettes. These designs are imaginary but plausible technologies that illustrate a security or privacy risk through absurdity, satire, or humour. We also consider the ability to co-design with generative artificial intelligence tools, finding the tools cannot (yet?) replicate our design process and produce satisfactory designs, but these tools are useful today in a `co-pilot' role for generating high volumes of ideas for human designers to curate and refine. 
+
+\end{abstract}
+
+\maketitle
+
+
+% = = = = = Main Body = = = = = %
+
+\input{sections/01-body}
+
+% = = = = = Ack = = = = = %
+
+\begin{anonsuppress}
+\begin{acks}
+%We thank the reviewers who helped to improve our paper. 
+%
+J. Clark acknowledges support for this research project from the \grantsponsor{nserc}{National Sciences and Engineering Research Council of Canada (NSERC)}{https://www.nserc-crsng.gc.ca} through the NSERC, Raymond Chabot Grant Thornton, and Catallaxy Industrial Research Chair in Blockchain Technologies \grantnum[https://www.nserc-crsng.gc.ca/Chairholders-TitulairesDeChaire/Chairholder-Titulaire_eng.asp?pid=1045]{nserc}{ IRCPJ/545498-2018} and a Discovery Grant \grantnum{nserc}{RGPIN/04019-2021}
+%
+%We also acknowledge partial support from 
+%\grantsponsor{amf}{Autorité des Marchés Financiers (AMF)}{https://lautorite.qc.ca} and
+%\grantsponsor{chaire}{The Chaire Fintech: AMF -- Finance Montréal}{https://chairefintech.uqam.ca} and
+%\grantsponsor{opc}{Office of the Privacy Commissioner of Canada (OPC)}{https://www.priv.gc.ca}.
+%
+\end{acks}
+\end{anonsuppress}
+
+% = = = = = Bibliography = = = = = %
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{bib/design.bib}
+
+% = = = = = End Notes = = = = = %
+
+\end{document}
+
