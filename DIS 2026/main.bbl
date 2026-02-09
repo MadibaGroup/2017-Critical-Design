@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{29}
+\begin{thebibliography}{18}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -53,61 +53,6 @@
 \showDOI{\tempurl}
 
 
-\bibitem[Chakrabarty et~al\mbox{.}(2024)]%
-        {chakrabarty_art_2024}
-\bibfield{author}{\bibinfo{person}{Tuhin Chakrabarty},
-  \bibinfo{person}{Philippe Laban}, \bibinfo{person}{Divyansh Agarwal},
-  \bibinfo{person}{Smaranda Muresan}, {and} \bibinfo{person}{Chien-Sheng Wu}.}
-  \bibinfo{year}{2024}\natexlab{}.
-\newblock \showarticletitle{Art or {Artifice}? {Large} {Language} {Models} and
-  the {False} {Promise} of {Creativity}}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the {CHI} {Conference} on {Human}
-  {Factors} in {Computing} {Systems}}} \emph{(\bibinfo{series}{{CHI} '24})}.
-  \bibinfo{publisher}{Association for Computing Machinery},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1--34}.
-\newblock
-\showISBNx{9798400703300}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3613904.3642731}
-\showDOI{\tempurl}
-
-
-\bibitem[Chang et~al\mbox{.}(2023)]%
-        {chang_prompt_2023}
-\bibfield{author}{\bibinfo{person}{Minsuk Chang}, \bibinfo{person}{Stefania
-  Druga}, \bibinfo{person}{Alexander~J. Fiannaca}, \bibinfo{person}{Pedro
-  Vergani}, \bibinfo{person}{Chinmay Kulkarni}, \bibinfo{person}{Carrie~J Cai},
-  {and} \bibinfo{person}{Michael Terry}.} \bibinfo{year}{2023}\natexlab{}.
-\newblock \showarticletitle{The {Prompt} {Artists}}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 15th {Conference} on
-  {Creativity} and {Cognition}}} \emph{(\bibinfo{series}{C\&amp;{C} '23})}.
-  \bibinfo{publisher}{Association for Computing Machinery},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{75--87}.
-\newblock
-\showISBNx{9798400701801}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3591196.3593515}
-\showDOI{\tempurl}
-
-
-\bibitem[Chiou et~al\mbox{.}(2023)]%
-        {chiou_designing_2023}
-\bibfield{author}{\bibinfo{person}{Li-Yuan Chiou}, \bibinfo{person}{Peng-Kai
-  Hung}, \bibinfo{person}{Rung-Huei Liang}, {and} \bibinfo{person}{Chun-Teng
-  Wang}.} \bibinfo{year}{2023}\natexlab{}.
-\newblock \showarticletitle{Designing with {AI}: {An} {Exploration} of
-  {Co}-{Ideation} with {Image} {Generators}}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2023 {ACM} {Designing}
-  {Interactive} {Systems} {Conference}}} \emph{(\bibinfo{series}{{DIS} '23})}.
-  \bibinfo{publisher}{Association for Computing Machinery},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1941--1954}.
-\newblock
-\showISBNx{9781450398930}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3563657.3596001}
-\showDOI{\tempurl}
-
-
 \bibitem[Dunne(2005)]%
         {Dun05}
 \bibfield{author}{\bibinfo{person}{Anthony Dunne}.}
@@ -134,25 +79,6 @@
   Objects}}.
 \newblock \bibinfo{publisher}{Birkhauser}.
 \newblock
-
-
-\bibitem[Fan et~al\mbox{.}(2024)]%
-        {fan_contextcam_2024}
-\bibfield{author}{\bibinfo{person}{Xianzhe Fan}, \bibinfo{person}{Zihan Wu},
-  \bibinfo{person}{Chun Yu}, \bibinfo{person}{Fenggui Rao},
-  \bibinfo{person}{Weinan Shi}, {and} \bibinfo{person}{Teng Tu}.}
-  \bibinfo{year}{2024}\natexlab{}.
-\newblock \showarticletitle{{ContextCam}: {Bridging} {Context} {Awareness} with
-  {Creative} {Human}-{AI} {Image} {Co}-{Creation}}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the {CHI} {Conference} on {Human}
-  {Factors} in {Computing} {Systems}}} \emph{(\bibinfo{series}{{CHI} '24})}.
-  \bibinfo{publisher}{Association for Computing Machinery},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1--17}.
-\newblock
-\showISBNx{9798400703300}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3613904.3642129}
-\showDOI{\tempurl}
 
 
 \bibitem[Finch(1987)]%
@@ -243,23 +169,6 @@
 \showDOI{\tempurl}
 
 
-\bibitem[Huang and MacNeil(2023)]%
-        {huang_designnet_2023}
-\bibfield{author}{\bibinfo{person}{Ziheng Huang} {and} \bibinfo{person}{Stephen
-  MacNeil}.} \bibinfo{year}{2023}\natexlab{}.
-\newblock \showarticletitle{{DesignNet}: a knowledge graph representation of
-  the conceptual design space}. In \bibinfo{booktitle}{\emph{Proceedings of the
-  15th {Conference} on {Creativity} and {Cognition}}}
-  \emph{(\bibinfo{series}{C\&amp;{C} '23})}. \bibinfo{publisher}{Association
-  for Computing Machinery}, \bibinfo{address}{New York, NY, USA},
-  \bibinfo{pages}{375--377}.
-\newblock
-\showISBNx{9798400701801}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3591196.3596614}
-\showDOI{\tempurl}
-
-
 \bibitem[Lawson et~al\mbox{.}(2015)]%
         {lawson_problematising_2015}
 \bibfield{author}{\bibinfo{person}{Shaun Lawson}, \bibinfo{person}{Ben Kirman},
@@ -275,39 +184,6 @@
 \showISBNx{9781450331456}
 \urldef\tempurl%
 \url{https://doi.org/10.1145/2702123.2702260}
-\showDOI{\tempurl}
-
-
-\bibitem[Levalle(2020)]%
-        {levalle2020biometric}
-\bibfield{author}{\bibinfo{person}{Yamila Levalle}.}
-  \bibinfo{year}{2020}\natexlab{}.
-\newblock \showarticletitle{Researcher uses 3D-printed fingerprint to spoof
-  biometric authentication}.
-\newblock \bibinfo{journal}{\emph{Biometric Update}} (\bibinfo{year}{2020}).
-\newblock
-\urldef\tempurl%
-\url{https://www.biometricupdate.com}
-\showURL{%
-\tempurl}
-\newblock
-\shownote{Presented at Def Con 2020}.
-
-
-\bibitem[Lin and Long(2023)]%
-        {lin_generative_2023}
-\bibfield{author}{\bibinfo{person}{Lauren Lin} {and} \bibinfo{person}{Duri
-  Long}.} \bibinfo{year}{2023}\natexlab{}.
-\newblock \showarticletitle{Generative {AI} {Futures}: {A} {Speculative}
-  {Design} {Exploration}}. In \bibinfo{booktitle}{\emph{Proceedings of the 15th
-  {Conference} on {Creativity} and {Cognition}}}
-  \emph{(\bibinfo{series}{C\&amp;{C} '23})}. \bibinfo{publisher}{Association
-  for Computing Machinery}, \bibinfo{address}{New York, NY, USA},
-  \bibinfo{pages}{380--383}.
-\newblock
-\showISBNx{9798400701801}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3591196.3596616}
 \showDOI{\tempurl}
 
 
@@ -370,17 +246,6 @@
 \newblock
 
 
-\bibitem[Narayanan and Kapoor(2024)]%
-        {snakeoil}
-\bibfield{author}{\bibinfo{person}{Arvind Narayanan} {and}
-  \bibinfo{person}{Sayash Kapoor}.} \bibinfo{year}{2024}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{AI Snake Oil: What Artificial Intelligence
-  Can Do, What It Can't, and How to Tell the Difference}}.
-\newblock \bibinfo{publisher}{Princeton University Press}.
-\newblock
-\showISBNx{9780691249131}
-
-
 \bibitem[Ojha et~al\mbox{.}(2023)]%
         {ojha_computing_2023}
 \bibfield{author}{\bibinfo{person}{Vidushi Ojha}, \bibinfo{person}{Christopher
@@ -415,54 +280,6 @@
 \showISBNx{9781450394338}
 \urldef\tempurl%
 \url{https://doi.org/10.1145/3545947.3576266}
-\showDOI{\tempurl}
-
-
-\bibitem[Sanchez(2023)]%
-        {sanchez_examining_2023}
-\bibfield{author}{\bibinfo{person}{T{\'e}o Sanchez}.}
-  \bibinfo{year}{2023}\natexlab{}.
-\newblock \showarticletitle{Examining the {Text}-to-{Image} {Community} of
-  {Practice}: {Why} and {How} do {People} {Prompt} {Generative} {AIs}?}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 15th {Conference} on
-  {Creativity} and {Cognition}}} \emph{(\bibinfo{series}{C\&amp;{C} '23})}.
-  \bibinfo{publisher}{Association for Computing Machinery},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{43--61}.
-\newblock
-\showISBNx{9798400701801}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3591196.3593051}
-\showDOI{\tempurl}
-
-
-\bibitem[Shostack(2014)]%
-        {shostack2014threat}
-\bibfield{author}{\bibinfo{person}{Adam Shostack}.}
-  \bibinfo{year}{2014}\natexlab{}.
-\newblock \bibinfo{booktitle}{\emph{Threat Modeling: Designing for Security}}.
-\newblock \bibinfo{publisher}{Wiley}, \bibinfo{address}{Indianapolis, IN}.
-\newblock
-\showISBNx{978-1-118-80008-2}
-\urldef\tempurl%
-\url{https://www.wiley.com/en-us/Threat+Modeling%3A+Designing+for+Security-p-9781118809990}
-\showURL{%
-\tempurl}
-
-
-\bibitem[Tholander and Jonsson(2023)]%
-        {tholander_design_2023}
-\bibfield{author}{\bibinfo{person}{Jakob Tholander} {and}
-  \bibinfo{person}{Martin Jonsson}.} \bibinfo{year}{2023}\natexlab{}.
-\newblock \showarticletitle{Design {Ideation} with {AI} - {Sketching},
-  {Thinking} and {Talking} with {Generative} {Machine} {Learning} {Models}}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2023 {ACM} {Designing}
-  {Interactive} {Systems} {Conference}}} \emph{(\bibinfo{series}{{DIS} '23})}.
-  \bibinfo{publisher}{Association for Computing Machinery},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1930--1940}.
-\newblock
-\showISBNx{9781450398930}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3563657.3596014}
 \showDOI{\tempurl}
 
 
