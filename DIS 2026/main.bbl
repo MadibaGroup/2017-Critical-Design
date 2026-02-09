@@ -41,16 +41,8 @@
         {bardzell_what_2013}
 \bibfield{author}{\bibinfo{person}{Jeffrey Bardzell} {and}
   \bibinfo{person}{Shaowen Bardzell}.} \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{What is "critical" about critical design?}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the {SIGCHI} {Conference} on {Human}
-  {Factors} in {Computing} {Systems}}} \emph{(\bibinfo{series}{{CHI} '13})}.
-  \bibinfo{publisher}{Association for Computing Machinery},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{3297--3306}.
+\newblock In \bibinfo{booktitle}{\emph{CHI}}.
 \newblock
-\showISBNx{9781450318990}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/2470654.2466451}
-\showDOI{\tempurl}
 
 
 \bibitem[Dunne(2005)]%
@@ -99,15 +91,8 @@
   \bibinfo{person}{Anthony Steed}, \bibinfo{person}{Nicholas Villars}, {and}
   \bibinfo{person}{Brendan Walker}.} \bibinfo{year}{2004}\natexlab{}.
 \newblock \showarticletitle{The drift table: designing for ludic engagement}.
-  In \bibinfo{booktitle}{\emph{{CHI} '04 {Extended} {Abstracts} on {Human}
-  {Factors} in {Computing} {Systems}}} \emph{(\bibinfo{series}{{CHI} {EA}
-  '04})}. \bibinfo{publisher}{Association for Computing Machinery},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{885--900}.
+  In \bibinfo{booktitle}{\emph{CHI}}.
 \newblock
-\showISBNx{9781581137033}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/985921.985947}
-\showDOI{\tempurl}
 
 
 \bibitem[Gold(2014)]%
@@ -127,8 +112,7 @@
   Zhang-Kennedy}.} \bibinfo{year}{2024}\natexlab{}.
 \newblock \showarticletitle{Privacy in immersive extended reality: Exploring
   user perceptions, concerns, and coping strategies}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 2024 CHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{pages}{1--24}.
+  \bibinfo{booktitle}{\emph{CHI}}.
 \newblock
 
 
@@ -139,16 +123,8 @@
   \bibinfo{year}{2024}\natexlab{}.
 \newblock \showarticletitle{Conceptual {Metaphor} {Theory} in {Action}:
   {Insights} into {Student} {Understanding} of {Computing} {Concepts}}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 55th {ACM} {Technical}
-  {Symposium} on {Computer} {Science} {Education} {V}. 1}}
-  \emph{(\bibinfo{series}{{SIGCSE} 2024})}. \bibinfo{publisher}{Association for
-  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
-  \bibinfo{pages}{463--469}.
+  \bibinfo{booktitle}{\emph{SIGCSE}}.
 \newblock
-\showISBNx{9798400704239}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3626252.3630812}
-\showDOI{\tempurl}
 
 
 \bibitem[Holley et~al\mbox{.}(2023)]%
@@ -157,16 +133,8 @@
   Garcia}, {and} \bibinfo{person}{Julia Bernd}.}
   \bibinfo{year}{2023}\natexlab{}.
 \newblock \showarticletitle{Teaching {Cybersecurity}: {Introducing} the
-  {Security} {Mindset}}. In \bibinfo{booktitle}{\emph{Proceedings of the 54th
-  {ACM} {Technical} {Symposium} on {Computer} {Science} {Education} {V}. 2}}
-  \emph{(\bibinfo{series}{{SIGCSE} 2023})}. \bibinfo{publisher}{Association for
-  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
-  \bibinfo{pages}{1185}.
+  {Security} {Mindset}}. In \bibinfo{booktitle}{\emph{SIGCSE}}.
 \newblock
-\showISBNx{9781450394338}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3545947.3569637}
-\showDOI{\tempurl}
 
 
 \bibitem[Lawson et~al\mbox{.}(2015)]%
@@ -176,15 +144,8 @@
   \bibinfo{person}{Lisa Hopkins}.} \bibinfo{year}{2015}\natexlab{}.
 \newblock \showarticletitle{Problematising {Upstream} {Technology} through
   {Speculative} {Design}: {The} {Case} of {Quantified} {Cats} and {Dogs}}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 33rd {Annual} {ACM} {Conference}
-  on {Human} {Factors} in {Computing} {Systems}}} \emph{(\bibinfo{series}{{CHI}
-  '15})}. \bibinfo{publisher}{Association for Computing Machinery},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{2663--2672}.
+  \bibinfo{booktitle}{\emph{CHI}}.
 \newblock
-\showISBNx{9781450331456}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/2702123.2702260}
-\showDOI{\tempurl}
 
 
 \bibitem[Loureiro-Koechlin et~al\mbox{.}(2022)]%
@@ -195,15 +156,8 @@
   \bibinfo{person}{Charles Weir}.} \bibinfo{year}{2022}\natexlab{}.
 \newblock \showarticletitle{Vision: {Design} {Fiction} for {Cybersecurity}:
   {Using} {Science} {Fiction} to {Help} {Software} {Developers} {Anticipate}
-  {Problems}}. In \bibinfo{booktitle}{\emph{Proceedings of the 2022 {European}
-  {Symposium} on {Usable} {Security}}} \emph{(\bibinfo{series}{{EuroUSEC}
-  '22})}. \bibinfo{publisher}{Association for Computing Machinery},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{79--84}.
+  {Problems}}. In \bibinfo{booktitle}{\emph{EuroUSEC}}.
 \newblock
-\showISBNx{978-1-4503-9700-1}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3549015.3554295}
-\showDOI{\tempurl}
 
 
 \bibitem[Malpass(2017)]%
@@ -221,16 +175,8 @@
 \bibfield{author}{\bibinfo{person}{Nick Merrill}.}
   \bibinfo{year}{2020}\natexlab{}.
 \newblock \showarticletitle{Security {Fictions}: {Bridging} {Speculative}
-  {Design} and {Computer} {Security}}. In \bibinfo{booktitle}{\emph{Proceedings
-  of the 2020 {ACM} {Designing} {Interactive} {Systems} {Conference}}}
-  \emph{(\bibinfo{series}{{DIS} '20})}. \bibinfo{publisher}{Association for
-  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
-  \bibinfo{pages}{1727--1735}.
+  {Design} and {Computer} {Security}}. In \bibinfo{booktitle}{\emph{DIS}}.
 \newblock
-\showISBNx{9781450369749}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3357236.3395451}
-\showDOI{\tempurl}
 
 
 \bibitem[Naeini et~al\mbox{.}(2017)]%
@@ -241,8 +187,7 @@
   Cranor}, {and} \bibinfo{person}{Norman Sadeh}.}
   \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{Privacy expectations and preferences in an
-  $\{$IoT$\}$ world}. In \bibinfo{booktitle}{\emph{Thirteenth symposium on
-  usable privacy and security (SOUPS 2017)}}. \bibinfo{pages}{399--412}.
+  $\{$IoT$\}$ world}. In \bibinfo{booktitle}{\emph{SOUPS}}.
 \newblock
 
 
@@ -253,16 +198,8 @@
   Lewis}.} \bibinfo{year}{2023}\natexlab{}.
 \newblock \showarticletitle{Computing {Specializations}: {Perceptions} of {AI}
   and {Cybersecurity} {Among} {CS} {Students}}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the 54th {ACM} {Technical}
-  {Symposium} on {Computer} {Science} {Education} {V}. 1}}
-  \emph{(\bibinfo{series}{{SIGCSE} 2023})}. \bibinfo{publisher}{Association for
-  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
-  \bibinfo{pages}{966--972}.
+  \bibinfo{booktitle}{\emph{SIGCSE}}.
 \newblock
-\showISBNx{9781450394314}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3545945.3569782}
-\showDOI{\tempurl}
 
 
 \bibitem[Rayavaram et~al\mbox{.}(2023)]%
@@ -271,16 +208,8 @@
   Jagadeesha}, \bibinfo{person}{Sashank Narain}, {and}
   \bibinfo{person}{Claire~Seungeun Lee}.} \bibinfo{year}{2023}\natexlab{}.
 \newblock \showarticletitle{Designing a {Visual} {Cryptography} {Curriculum}
-  for {K}-12 {Education}}. In \bibinfo{booktitle}{\emph{Proceedings of the 54th
-  {ACM} {Technical} {Symposium} on {Computer} {Science} {Education} {V}. 2}}
-  \emph{(\bibinfo{series}{{SIGCSE} 2023})}. \bibinfo{publisher}{Association for
-  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
-  \bibinfo{pages}{1319}.
+  for {K}-12 {Education}}. In \bibinfo{booktitle}{\emph{SIGCSE}}.
 \newblock
-\showISBNx{9781450394338}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3545947.3576266}
-\showDOI{\tempurl}
 
 
 \bibitem[Wong et~al\mbox{.}(2017)]%
@@ -290,15 +219,8 @@
   \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{Real-{Fictional} {Entanglements}: {Using} {Science}
   {Fiction} and {Design} {Fiction} to {Interrogate} {Sensing} {Technologies}}.
-  In \bibinfo{booktitle}{\emph{Proceedings of the 2017 {Conference} on
-  {Designing} {Interactive} {Systems}}} \emph{(\bibinfo{series}{{DIS} '17})}.
-  \bibinfo{publisher}{Association for Computing Machinery},
-  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{567--579}.
+  In \bibinfo{booktitle}{\emph{DIS}}.
 \newblock
-\showISBNx{9781450349222}
-\urldef\tempurl%
-\url{https://doi.org/10.1145/3064663.3064682}
-\showDOI{\tempurl}
 
 
 \end{thebibliography}
