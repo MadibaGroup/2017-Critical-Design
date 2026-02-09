@@ -1,0 +1,487 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{29}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Bardzell and Bardzell(2013)]%
+        {bardzell_what_2013}
+\bibfield{author}{\bibinfo{person}{Jeffrey Bardzell} {and}
+  \bibinfo{person}{Shaowen Bardzell}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{What is "critical" about critical design?}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the {SIGCHI} {Conference} on {Human}
+  {Factors} in {Computing} {Systems}}} \emph{(\bibinfo{series}{{CHI} '13})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{3297--3306}.
+\newblock
+\showISBNx{9781450318990}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2470654.2466451}
+\showDOI{\tempurl}
+
+
+\bibitem[Chakrabarty et~al\mbox{.}(2024)]%
+        {chakrabarty_art_2024}
+\bibfield{author}{\bibinfo{person}{Tuhin Chakrabarty},
+  \bibinfo{person}{Philippe Laban}, \bibinfo{person}{Divyansh Agarwal},
+  \bibinfo{person}{Smaranda Muresan}, {and} \bibinfo{person}{Chien-Sheng Wu}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Art or {Artifice}? {Large} {Language} {Models} and
+  the {False} {Promise} of {Creativity}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the {CHI} {Conference} on {Human}
+  {Factors} in {Computing} {Systems}}} \emph{(\bibinfo{series}{{CHI} '24})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1--34}.
+\newblock
+\showISBNx{9798400703300}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3613904.3642731}
+\showDOI{\tempurl}
+
+
+\bibitem[Chang et~al\mbox{.}(2023)]%
+        {chang_prompt_2023}
+\bibfield{author}{\bibinfo{person}{Minsuk Chang}, \bibinfo{person}{Stefania
+  Druga}, \bibinfo{person}{Alexander~J. Fiannaca}, \bibinfo{person}{Pedro
+  Vergani}, \bibinfo{person}{Chinmay Kulkarni}, \bibinfo{person}{Carrie~J Cai},
+  {and} \bibinfo{person}{Michael Terry}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{The {Prompt} {Artists}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 15th {Conference} on
+  {Creativity} and {Cognition}}} \emph{(\bibinfo{series}{C\&amp;{C} '23})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{75--87}.
+\newblock
+\showISBNx{9798400701801}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3591196.3593515}
+\showDOI{\tempurl}
+
+
+\bibitem[Chiou et~al\mbox{.}(2023)]%
+        {chiou_designing_2023}
+\bibfield{author}{\bibinfo{person}{Li-Yuan Chiou}, \bibinfo{person}{Peng-Kai
+  Hung}, \bibinfo{person}{Rung-Huei Liang}, {and} \bibinfo{person}{Chun-Teng
+  Wang}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Designing with {AI}: {An} {Exploration} of
+  {Co}-{Ideation} with {Image} {Generators}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2023 {ACM} {Designing}
+  {Interactive} {Systems} {Conference}}} \emph{(\bibinfo{series}{{DIS} '23})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1941--1954}.
+\newblock
+\showISBNx{9781450398930}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3563657.3596001}
+\showDOI{\tempurl}
+
+
+\bibitem[Dunne(2005)]%
+        {Dun05}
+\bibfield{author}{\bibinfo{person}{Anthony Dunne}.}
+  \bibinfo{year}{2005}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Hertzian Tales}}.
+\newblock \bibinfo{publisher}{MIT}.
+\newblock
+
+
+\bibitem[Dunne and Gaver(1997)]%
+        {DuGa97}
+\bibfield{author}{\bibinfo{person}{Anthony Dunne} {and}
+  \bibinfo{person}{William~W. Gaver}.} \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{The Pillow: Artist-designers in the Digital Age}.
+  In \bibinfo{booktitle}{\emph{CHI}}.
+\newblock
+
+
+\bibitem[Dunne and Raby(2000)]%
+        {DuRa01}
+\bibfield{author}{\bibinfo{person}{Anthony Dunne} {and} \bibinfo{person}{Fiona
+  Raby}.} \bibinfo{year}{2000}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Design Noir: The Secret Life of Electronic
+  Objects}}.
+\newblock \bibinfo{publisher}{Birkhauser}.
+\newblock
+
+
+\bibitem[Fan et~al\mbox{.}(2024)]%
+        {fan_contextcam_2024}
+\bibfield{author}{\bibinfo{person}{Xianzhe Fan}, \bibinfo{person}{Zihan Wu},
+  \bibinfo{person}{Chun Yu}, \bibinfo{person}{Fenggui Rao},
+  \bibinfo{person}{Weinan Shi}, {and} \bibinfo{person}{Teng Tu}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{ContextCam}: {Bridging} {Context} {Awareness} with
+  {Creative} {Human}-{AI} {Image} {Co}-{Creation}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the {CHI} {Conference} on {Human}
+  {Factors} in {Computing} {Systems}}} \emph{(\bibinfo{series}{{CHI} '24})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1--17}.
+\newblock
+\showISBNx{9798400703300}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3613904.3642129}
+\showDOI{\tempurl}
+
+
+\bibitem[Finch(1987)]%
+        {finch1987vignette}
+\bibfield{author}{\bibinfo{person}{Janet Finch}.}
+  \bibinfo{year}{1987}\natexlab{}.
+\newblock \showarticletitle{The vignette technique in survey research}.
+\newblock \bibinfo{journal}{\emph{Sociology}} \bibinfo{volume}{21},
+  \bibinfo{number}{1} (\bibinfo{year}{1987}), \bibinfo{pages}{105--114}.
+\newblock
+
+
+\bibitem[Gaver et~al\mbox{.}(2004)]%
+        {gaver_drift_2004}
+\bibfield{author}{\bibinfo{person}{William~W. Gaver}, \bibinfo{person}{John
+  Bowers}, \bibinfo{person}{Andrew Boucher}, \bibinfo{person}{Hans Gellerson},
+  \bibinfo{person}{Sarah Pennington}, \bibinfo{person}{Albrecht Schmidt},
+  \bibinfo{person}{Anthony Steed}, \bibinfo{person}{Nicholas Villars}, {and}
+  \bibinfo{person}{Brendan Walker}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{The drift table: designing for ludic engagement}.
+  In \bibinfo{booktitle}{\emph{{CHI} '04 {Extended} {Abstracts} on {Human}
+  {Factors} in {Computing} {Systems}}} \emph{(\bibinfo{series}{{CHI} {EA}
+  '04})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{885--900}.
+\newblock
+\showISBNx{9781581137033}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/985921.985947}
+\showDOI{\tempurl}
+
+
+\bibitem[Gold(2014)]%
+        {Gol14}
+\bibfield{author}{\bibinfo{person}{Sarah Gold}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \emph{\bibinfo{title}{Alternet Rules}}.
+\newblock \bibinfo{thesistype}{Master's\ thesis}. \bibinfo{school}{University
+  of the Arts London}.
+\newblock
+
+
+\bibitem[Hadan et~al\mbox{.}(2024)]%
+        {hadan2024privacy}
+\bibfield{author}{\bibinfo{person}{Hilda Hadan}, \bibinfo{person}{Derrick~M
+  Wang}, \bibinfo{person}{Lennart~E Nacke}, {and} \bibinfo{person}{Leah
+  Zhang-Kennedy}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Privacy in immersive extended reality: Exploring
+  user perceptions, concerns, and coping strategies}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2024 CHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{1--24}.
+\newblock
+
+
+\bibitem[Harper et~al\mbox{.}(2024)]%
+        {harper_conceptual_2024}
+\bibfield{author}{\bibinfo{person}{Colton Harper}, \bibinfo{person}{Keith
+  Tran}, {and} \bibinfo{person}{Stephen Cooper}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Conceptual {Metaphor} {Theory} in {Action}:
+  {Insights} into {Student} {Understanding} of {Computing} {Concepts}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 55th {ACM} {Technical}
+  {Symposium} on {Computer} {Science} {Education} {V}. 1}}
+  \emph{(\bibinfo{series}{{SIGCSE} 2024})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{463--469}.
+\newblock
+\showISBNx{9798400704239}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3626252.3630812}
+\showDOI{\tempurl}
+
+
+\bibitem[Holley et~al\mbox{.}(2023)]%
+        {holley_teaching_2023}
+\bibfield{author}{\bibinfo{person}{Buffie Holley}, \bibinfo{person}{Dan
+  Garcia}, {and} \bibinfo{person}{Julia Bernd}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Teaching {Cybersecurity}: {Introducing} the
+  {Security} {Mindset}}. In \bibinfo{booktitle}{\emph{Proceedings of the 54th
+  {ACM} {Technical} {Symposium} on {Computer} {Science} {Education} {V}. 2}}
+  \emph{(\bibinfo{series}{{SIGCSE} 2023})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1185}.
+\newblock
+\showISBNx{9781450394338}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3545947.3569637}
+\showDOI{\tempurl}
+
+
+\bibitem[Huang and MacNeil(2023)]%
+        {huang_designnet_2023}
+\bibfield{author}{\bibinfo{person}{Ziheng Huang} {and} \bibinfo{person}{Stephen
+  MacNeil}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{DesignNet}: a knowledge graph representation of
+  the conceptual design space}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  15th {Conference} on {Creativity} and {Cognition}}}
+  \emph{(\bibinfo{series}{C\&amp;{C} '23})}. \bibinfo{publisher}{Association
+  for Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{375--377}.
+\newblock
+\showISBNx{9798400701801}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3591196.3596614}
+\showDOI{\tempurl}
+
+
+\bibitem[Lawson et~al\mbox{.}(2015)]%
+        {lawson_problematising_2015}
+\bibfield{author}{\bibinfo{person}{Shaun Lawson}, \bibinfo{person}{Ben Kirman},
+  \bibinfo{person}{Conor Linehan}, \bibinfo{person}{Tom Feltwell}, {and}
+  \bibinfo{person}{Lisa Hopkins}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Problematising {Upstream} {Technology} through
+  {Speculative} {Design}: {The} {Case} of {Quantified} {Cats} and {Dogs}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 33rd {Annual} {ACM} {Conference}
+  on {Human} {Factors} in {Computing} {Systems}}} \emph{(\bibinfo{series}{{CHI}
+  '15})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{2663--2672}.
+\newblock
+\showISBNx{9781450331456}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2702123.2702260}
+\showDOI{\tempurl}
+
+
+\bibitem[Levalle(2020)]%
+        {levalle2020biometric}
+\bibfield{author}{\bibinfo{person}{Yamila Levalle}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Researcher uses 3D-printed fingerprint to spoof
+  biometric authentication}.
+\newblock \bibinfo{journal}{\emph{Biometric Update}} (\bibinfo{year}{2020}).
+\newblock
+\urldef\tempurl%
+\url{https://www.biometricupdate.com}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Presented at Def Con 2020}.
+
+
+\bibitem[Lin and Long(2023)]%
+        {lin_generative_2023}
+\bibfield{author}{\bibinfo{person}{Lauren Lin} {and} \bibinfo{person}{Duri
+  Long}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Generative {AI} {Futures}: {A} {Speculative}
+  {Design} {Exploration}}. In \bibinfo{booktitle}{\emph{Proceedings of the 15th
+  {Conference} on {Creativity} and {Cognition}}}
+  \emph{(\bibinfo{series}{C\&amp;{C} '23})}. \bibinfo{publisher}{Association
+  for Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{380--383}.
+\newblock
+\showISBNx{9798400701801}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3591196.3596616}
+\showDOI{\tempurl}
+
+
+\bibitem[Loureiro-Koechlin et~al\mbox{.}(2022)]%
+        {loureiro-koechlin_vision_2022}
+\bibfield{author}{\bibinfo{person}{Cecilia Loureiro-Koechlin},
+  \bibinfo{person}{Jose-Rodrigo Cordoba-Pachon}, \bibinfo{person}{Lynne
+  Coventry}, \bibinfo{person}{Soteris Demetriou}, {and}
+  \bibinfo{person}{Charles Weir}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Vision: {Design} {Fiction} for {Cybersecurity}:
+  {Using} {Science} {Fiction} to {Help} {Software} {Developers} {Anticipate}
+  {Problems}}. In \bibinfo{booktitle}{\emph{Proceedings of the 2022 {European}
+  {Symposium} on {Usable} {Security}}} \emph{(\bibinfo{series}{{EuroUSEC}
+  '22})}. \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{79--84}.
+\newblock
+\showISBNx{978-1-4503-9700-1}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3549015.3554295}
+\showDOI{\tempurl}
+
+
+\bibitem[Malpass(2017)]%
+        {Mal17}
+\bibfield{author}{\bibinfo{person}{M Malpass}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Critical Design in Context: History,
+  Theory, and Practices}}.
+\newblock \bibinfo{publisher}{Bloomsbury}.
+\newblock
+
+
+\bibitem[Merrill(2020)]%
+        {merrill_security_2020}
+\bibfield{author}{\bibinfo{person}{Nick Merrill}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Security {Fictions}: {Bridging} {Speculative}
+  {Design} and {Computer} {Security}}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 2020 {ACM} {Designing} {Interactive} {Systems} {Conference}}}
+  \emph{(\bibinfo{series}{{DIS} '20})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1727--1735}.
+\newblock
+\showISBNx{9781450369749}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3357236.3395451}
+\showDOI{\tempurl}
+
+
+\bibitem[Naeini et~al\mbox{.}(2017)]%
+        {naeini2017privacy}
+\bibfield{author}{\bibinfo{person}{Pardis~Emami Naeini}, \bibinfo{person}{Sruti
+  Bhagavatula}, \bibinfo{person}{Hana Habib}, \bibinfo{person}{Martin
+  Degeling}, \bibinfo{person}{Lujo Bauer}, \bibinfo{person}{Lorrie~Faith
+  Cranor}, {and} \bibinfo{person}{Norman Sadeh}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Privacy expectations and preferences in an
+  $\{$IoT$\}$ world}. In \bibinfo{booktitle}{\emph{Thirteenth symposium on
+  usable privacy and security (SOUPS 2017)}}. \bibinfo{pages}{399--412}.
+\newblock
+
+
+\bibitem[Narayanan and Kapoor(2024)]%
+        {snakeoil}
+\bibfield{author}{\bibinfo{person}{Arvind Narayanan} {and}
+  \bibinfo{person}{Sayash Kapoor}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{AI Snake Oil: What Artificial Intelligence
+  Can Do, What It Can't, and How to Tell the Difference}}.
+\newblock \bibinfo{publisher}{Princeton University Press}.
+\newblock
+\showISBNx{9780691249131}
+
+
+\bibitem[Ojha et~al\mbox{.}(2023)]%
+        {ojha_computing_2023}
+\bibfield{author}{\bibinfo{person}{Vidushi Ojha}, \bibinfo{person}{Christopher
+  Perdriau}, \bibinfo{person}{Brent Lagesse}, {and} \bibinfo{person}{Colleen~M.
+  Lewis}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Computing {Specializations}: {Perceptions} of {AI}
+  and {Cybersecurity} {Among} {CS} {Students}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 54th {ACM} {Technical}
+  {Symposium} on {Computer} {Science} {Education} {V}. 1}}
+  \emph{(\bibinfo{series}{{SIGCSE} 2023})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{966--972}.
+\newblock
+\showISBNx{9781450394314}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3545945.3569782}
+\showDOI{\tempurl}
+
+
+\bibitem[Rayavaram et~al\mbox{.}(2023)]%
+        {rayavaram_designing_2023}
+\bibfield{author}{\bibinfo{person}{Pranathi Rayavaram}, \bibinfo{person}{Ashwin
+  Jagadeesha}, \bibinfo{person}{Sashank Narain}, {and}
+  \bibinfo{person}{Claire~Seungeun Lee}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Designing a {Visual} {Cryptography} {Curriculum}
+  for {K}-12 {Education}}. In \bibinfo{booktitle}{\emph{Proceedings of the 54th
+  {ACM} {Technical} {Symposium} on {Computer} {Science} {Education} {V}. 2}}
+  \emph{(\bibinfo{series}{{SIGCSE} 2023})}. \bibinfo{publisher}{Association for
+  Computing Machinery}, \bibinfo{address}{New York, NY, USA},
+  \bibinfo{pages}{1319}.
+\newblock
+\showISBNx{9781450394338}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3545947.3576266}
+\showDOI{\tempurl}
+
+
+\bibitem[Sanchez(2023)]%
+        {sanchez_examining_2023}
+\bibfield{author}{\bibinfo{person}{T{\'e}o Sanchez}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Examining the {Text}-to-{Image} {Community} of
+  {Practice}: {Why} and {How} do {People} {Prompt} {Generative} {AIs}?}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 15th {Conference} on
+  {Creativity} and {Cognition}}} \emph{(\bibinfo{series}{C\&amp;{C} '23})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{43--61}.
+\newblock
+\showISBNx{9798400701801}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3591196.3593051}
+\showDOI{\tempurl}
+
+
+\bibitem[Shostack(2014)]%
+        {shostack2014threat}
+\bibfield{author}{\bibinfo{person}{Adam Shostack}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Threat Modeling: Designing for Security}}.
+\newblock \bibinfo{publisher}{Wiley}, \bibinfo{address}{Indianapolis, IN}.
+\newblock
+\showISBNx{978-1-118-80008-2}
+\urldef\tempurl%
+\url{https://www.wiley.com/en-us/Threat+Modeling%3A+Designing+for+Security-p-9781118809990}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Tholander and Jonsson(2023)]%
+        {tholander_design_2023}
+\bibfield{author}{\bibinfo{person}{Jakob Tholander} {and}
+  \bibinfo{person}{Martin Jonsson}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Design {Ideation} with {AI} - {Sketching},
+  {Thinking} and {Talking} with {Generative} {Machine} {Learning} {Models}}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2023 {ACM} {Designing}
+  {Interactive} {Systems} {Conference}}} \emph{(\bibinfo{series}{{DIS} '23})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{1930--1940}.
+\newblock
+\showISBNx{9781450398930}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3563657.3596014}
+\showDOI{\tempurl}
+
+
+\bibitem[Wong et~al\mbox{.}(2017)]%
+        {wong_real-fictional_2017}
+\bibfield{author}{\bibinfo{person}{Richmond~Y. Wong}, \bibinfo{person}{Ellen
+  Van~Wyk}, {and} \bibinfo{person}{James Pierce}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Real-{Fictional} {Entanglements}: {Using} {Science}
+  {Fiction} and {Design} {Fiction} to {Interrogate} {Sensing} {Technologies}}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the 2017 {Conference} on
+  {Designing} {Interactive} {Systems}}} \emph{(\bibinfo{series}{{DIS} '17})}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{address}{New York, NY, USA}, \bibinfo{pages}{567--579}.
+\newblock
+\showISBNx{9781450349222}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3064663.3064682}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}
