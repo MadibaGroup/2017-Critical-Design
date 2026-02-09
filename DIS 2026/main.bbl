@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{18}
+\begin{thebibliography}{15}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -83,6 +83,17 @@
 \newblock
 
 
+\bibitem[Fulton et~al\mbox{.}(2019)]%
+        {fulton2019effect}
+\bibfield{author}{\bibinfo{person}{Kelsey~R Fulton}, \bibinfo{person}{Rebecca
+  Gelles}, \bibinfo{person}{Alexandra McKay}, \bibinfo{person}{Yasmin Abdi},
+  \bibinfo{person}{Richard Roberts}, {and} \bibinfo{person}{Michelle~L
+  Mazurek}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{The effect of entertainment media on mental models
+  of computer security}. In \bibinfo{booktitle}{\emph{SOUPS}}.
+\newblock
+
+
 \bibitem[Gaver et~al\mbox{.}(2004)]%
         {gaver_drift_2004}
 \bibfield{author}{\bibinfo{person}{William~W. Gaver}, \bibinfo{person}{John
@@ -92,16 +103,6 @@
   \bibinfo{person}{Brendan Walker}.} \bibinfo{year}{2004}\natexlab{}.
 \newblock \showarticletitle{The drift table: designing for ludic engagement}.
   In \bibinfo{booktitle}{\emph{CHI}}.
-\newblock
-
-
-\bibitem[Gold(2014)]%
-        {Gol14}
-\bibfield{author}{\bibinfo{person}{Sarah Gold}.}
-  \bibinfo{year}{2014}\natexlab{}.
-\newblock \emph{\bibinfo{title}{Alternet Rules}}.
-\newblock \bibinfo{thesistype}{Master's\ thesis}. \bibinfo{school}{University
-  of the Arts London}.
 \newblock
 
 
@@ -124,16 +125,6 @@
 \newblock \showarticletitle{Conceptual {Metaphor} {Theory} in {Action}:
   {Insights} into {Student} {Understanding} of {Computing} {Concepts}}. In
   \bibinfo{booktitle}{\emph{SIGCSE}}.
-\newblock
-
-
-\bibitem[Holley et~al\mbox{.}(2023)]%
-        {holley_teaching_2023}
-\bibfield{author}{\bibinfo{person}{Buffie Holley}, \bibinfo{person}{Dan
-  Garcia}, {and} \bibinfo{person}{Julia Bernd}.}
-  \bibinfo{year}{2023}\natexlab{}.
-\newblock \showarticletitle{Teaching {Cybersecurity}: {Introducing} the
-  {Security} {Mindset}}. In \bibinfo{booktitle}{\emph{SIGCSE}}.
 \newblock
 
 
@@ -188,27 +179,6 @@
   \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{Privacy expectations and preferences in an
   $\{$IoT$\}$ world}. In \bibinfo{booktitle}{\emph{SOUPS}}.
-\newblock
-
-
-\bibitem[Ojha et~al\mbox{.}(2023)]%
-        {ojha_computing_2023}
-\bibfield{author}{\bibinfo{person}{Vidushi Ojha}, \bibinfo{person}{Christopher
-  Perdriau}, \bibinfo{person}{Brent Lagesse}, {and} \bibinfo{person}{Colleen~M.
-  Lewis}.} \bibinfo{year}{2023}\natexlab{}.
-\newblock \showarticletitle{Computing {Specializations}: {Perceptions} of {AI}
-  and {Cybersecurity} {Among} {CS} {Students}}. In
-  \bibinfo{booktitle}{\emph{SIGCSE}}.
-\newblock
-
-
-\bibitem[Rayavaram et~al\mbox{.}(2023)]%
-        {rayavaram_designing_2023}
-\bibfield{author}{\bibinfo{person}{Pranathi Rayavaram}, \bibinfo{person}{Ashwin
-  Jagadeesha}, \bibinfo{person}{Sashank Narain}, {and}
-  \bibinfo{person}{Claire~Seungeun Lee}.} \bibinfo{year}{2023}\natexlab{}.
-\newblock \showarticletitle{Designing a {Visual} {Cryptography} {Curriculum}
-  for {K}-12 {Education}}. In \bibinfo{booktitle}{\emph{SIGCSE}}.
 \newblock
 
 
