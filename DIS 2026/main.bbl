@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{15}
+\begin{thebibliography}{16}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -179,6 +179,17 @@
   \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{Privacy expectations and preferences in an
   $\{$IoT$\}$ world}. In \bibinfo{booktitle}{\emph{SOUPS}}.
+\newblock
+
+
+\bibitem[Pfeffer et~al\mbox{.}(2022)]%
+        {pfeffer2022replication}
+\bibfield{author}{\bibinfo{person}{Katharina Pfeffer},
+  \bibinfo{person}{Alexandra Mai}, \bibinfo{person}{Edgar Weippl},
+  \bibinfo{person}{Emilee Rader}, {and} \bibinfo{person}{Katharina Krombholz}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Replication: Stories as informal lessons about
+  security}. In \bibinfo{booktitle}{\emph{SOUPS}}.
 \newblock
 
 
