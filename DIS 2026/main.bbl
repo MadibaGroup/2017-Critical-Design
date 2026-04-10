@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{16}
+\begin{thebibliography}{17}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -83,17 +83,6 @@
 \newblock
 
 
-\bibitem[Fulton et~al\mbox{.}(2019)]%
-        {fulton2019effect}
-\bibfield{author}{\bibinfo{person}{Kelsey~R Fulton}, \bibinfo{person}{Rebecca
-  Gelles}, \bibinfo{person}{Alexandra McKay}, \bibinfo{person}{Yasmin Abdi},
-  \bibinfo{person}{Richard Roberts}, {and} \bibinfo{person}{Michelle~L
-  Mazurek}.} \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{The effect of entertainment media on mental models
-  of computer security}. In \bibinfo{booktitle}{\emph{SOUPS}}.
-\newblock
-
-
 \bibitem[Gaver et~al\mbox{.}(2004)]%
         {gaver_drift_2004}
 \bibfield{author}{\bibinfo{person}{William~W. Gaver}, \bibinfo{person}{John
@@ -161,10 +150,20 @@
 \newblock
 
 
-\bibitem[Merrill(2020)]%
+\bibitem[Merrill(2020a)]%
+        {merrill2020security}
+\bibfield{author}{\bibinfo{person}{Nick Merrill}.}
+  \bibinfo{year}{2020}\natexlab{a}.
+\newblock \showarticletitle{Security fictions: Bridging speculative design and
+  computer security}. In \bibinfo{booktitle}{\emph{Proceedings of the 2020 ACM
+  Designing Interactive Systems Conference}}. \bibinfo{pages}{1727--1735}.
+\newblock
+
+
+\bibitem[Merrill(2020b)]%
         {merrill_security_2020}
 \bibfield{author}{\bibinfo{person}{Nick Merrill}.}
-  \bibinfo{year}{2020}\natexlab{}.
+  \bibinfo{year}{2020}\natexlab{b}.
 \newblock \showarticletitle{Security {Fictions}: {Bridging} {Speculative}
   {Design} and {Computer} {Security}}. In \bibinfo{booktitle}{\emph{DIS}}.
 \newblock
@@ -182,15 +181,30 @@
 \newblock
 
 
-\bibitem[Pfeffer et~al\mbox{.}(2022)]%
-        {pfeffer2022replication}
-\bibfield{author}{\bibinfo{person}{Katharina Pfeffer},
-  \bibinfo{person}{Alexandra Mai}, \bibinfo{person}{Edgar Weippl},
-  \bibinfo{person}{Emilee Rader}, {and} \bibinfo{person}{Katharina Krombholz}.}
-  \bibinfo{year}{2022}\natexlab{}.
-\newblock \showarticletitle{Replication: Stories as informal lessons about
-  security}. In \bibinfo{booktitle}{\emph{SOUPS}}.
+\bibitem[Shostack(2014)]%
+        {shostack2014threat}
+\bibfield{author}{\bibinfo{person}{Adam Shostack}.}
+  \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Threat modeling: Designing for security}}.
+\newblock \bibinfo{publisher}{John wiley \& sons}.
 \newblock
+
+
+\bibitem[Shostack(2021)]%
+        {shostack_fast_cheap_good}
+\bibfield{author}{\bibinfo{person}{Adam Shostack}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Fast, Cheap, and Good: An Unusual Trade-off
+  Available in Threat Modeling}}.
+\newblock \bibinfo{type}{{T}echnical {R}eport}. \bibinfo{institution}{Shostack
+  + Associates}.
+\newblock
+\urldef\tempurl%
+\url{https://shostack.org/files/papers/Fast-Cheap-and-Good.pdf}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed: 2026-04-10}.
 
 
 \bibitem[Wong et~al\mbox{.}(2017)]%
