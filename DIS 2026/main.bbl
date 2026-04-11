@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{14}
+\begin{thebibliography}{15}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -127,6 +127,18 @@
   \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{Privacy expectations and preferences in an
   $\{$IoT$\}$ world}. In \bibinfo{booktitle}{\emph{SOUPS}}.
+\newblock
+
+
+\bibitem[Nathan et~al\mbox{.}(2008)]%
+        {nathan2008envisioning}
+\bibfield{author}{\bibinfo{person}{Lisa~P Nathan}, \bibinfo{person}{Batya
+  Friedman}, \bibinfo{person}{Predrag Klasnja}, \bibinfo{person}{Shaun~K Kane},
+  {and} \bibinfo{person}{Jessica~K Miller}.} \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Envisioning systemic effects on persons and society
+  throughout interactive system design}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 7th ACM conference on Designing
+  interactive systems}}. \bibinfo{pages}{1--10}.
 \newblock
 
 
