@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{17}
+\begin{thebibliography}{14}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -36,14 +36,6 @@
 \providecommand\bibinfo[2]{#2}
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
-
-\bibitem[Bardzell and Bardzell(2013)]%
-        {bardzell_what_2013}
-\bibfield{author}{\bibinfo{person}{Jeffrey Bardzell} {and}
-  \bibinfo{person}{Shaowen Bardzell}.} \bibinfo{year}{2013}\natexlab{}.
-\newblock In \bibinfo{booktitle}{\emph{CHI}}.
-\newblock
-
 
 \bibitem[Dunne(2005)]%
         {Dun05}
@@ -83,18 +75,6 @@
 \newblock
 
 
-\bibitem[Gaver et~al\mbox{.}(2004)]%
-        {gaver_drift_2004}
-\bibfield{author}{\bibinfo{person}{William~W. Gaver}, \bibinfo{person}{John
-  Bowers}, \bibinfo{person}{Andrew Boucher}, \bibinfo{person}{Hans Gellerson},
-  \bibinfo{person}{Sarah Pennington}, \bibinfo{person}{Albrecht Schmidt},
-  \bibinfo{person}{Anthony Steed}, \bibinfo{person}{Nicholas Villars}, {and}
-  \bibinfo{person}{Brendan Walker}.} \bibinfo{year}{2004}\natexlab{}.
-\newblock \showarticletitle{The drift table: designing for ludic engagement}.
-  In \bibinfo{booktitle}{\emph{CHI}}.
-\newblock
-
-
 \bibitem[Hadan et~al\mbox{.}(2024)]%
         {hadan2024privacy}
 \bibfield{author}{\bibinfo{person}{Hilda Hadan}, \bibinfo{person}{Derrick~M
@@ -106,37 +86,15 @@
 \newblock
 
 
-\bibitem[Harper et~al\mbox{.}(2024)]%
-        {harper_conceptual_2024}
-\bibfield{author}{\bibinfo{person}{Colton Harper}, \bibinfo{person}{Keith
-  Tran}, {and} \bibinfo{person}{Stephen Cooper}.}
-  \bibinfo{year}{2024}\natexlab{}.
-\newblock \showarticletitle{Conceptual {Metaphor} {Theory} in {Action}:
-  {Insights} into {Student} {Understanding} of {Computing} {Concepts}}. In
-  \bibinfo{booktitle}{\emph{SIGCSE}}.
-\newblock
-
-
-\bibitem[Lawson et~al\mbox{.}(2015)]%
-        {lawson_problematising_2015}
-\bibfield{author}{\bibinfo{person}{Shaun Lawson}, \bibinfo{person}{Ben Kirman},
-  \bibinfo{person}{Conor Linehan}, \bibinfo{person}{Tom Feltwell}, {and}
-  \bibinfo{person}{Lisa Hopkins}.} \bibinfo{year}{2015}\natexlab{}.
-\newblock \showarticletitle{Problematising {Upstream} {Technology} through
-  {Speculative} {Design}: {The} {Case} of {Quantified} {Cats} and {Dogs}}. In
-  \bibinfo{booktitle}{\emph{CHI}}.
-\newblock
-
-
-\bibitem[Loureiro-Koechlin et~al\mbox{.}(2022)]%
-        {loureiro-koechlin_vision_2022}
-\bibfield{author}{\bibinfo{person}{Cecilia Loureiro-Koechlin},
-  \bibinfo{person}{Jose-Rodrigo Cordoba-Pachon}, \bibinfo{person}{Lynne
-  Coventry}, \bibinfo{person}{Soteris Demetriou}, {and}
-  \bibinfo{person}{Charles Weir}.} \bibinfo{year}{2022}\natexlab{}.
-\newblock \showarticletitle{Vision: {Design} {Fiction} for {Cybersecurity}:
-  {Using} {Science} {Fiction} to {Help} {Software} {Developers} {Anticipate}
-  {Problems}}. In \bibinfo{booktitle}{\emph{EuroUSEC}}.
+\bibitem[Khovanskaya et~al\mbox{.}(2013)]%
+        {khovanskaya2013everybody}
+\bibfield{author}{\bibinfo{person}{Vera Khovanskaya}, \bibinfo{person}{Eric~PS
+  Baumer}, \bibinfo{person}{Dan Cosley}, \bibinfo{person}{Stephen Voida}, {and}
+  \bibinfo{person}{Geri Gay}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{" Everybody knows what you're doing" a critical
+  design approach to personal informatics}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI Conference on Human
+  Factors in Computing Systems}}. \bibinfo{pages}{3403--3412}.
 \newblock
 
 
@@ -150,22 +108,13 @@
 \newblock
 
 
-\bibitem[Merrill(2020a)]%
+\bibitem[Merrill(2020)]%
         {merrill2020security}
 \bibfield{author}{\bibinfo{person}{Nick Merrill}.}
-  \bibinfo{year}{2020}\natexlab{a}.
+  \bibinfo{year}{2020}\natexlab{}.
 \newblock \showarticletitle{Security fictions: Bridging speculative design and
   computer security}. In \bibinfo{booktitle}{\emph{Proceedings of the 2020 ACM
   Designing Interactive Systems Conference}}. \bibinfo{pages}{1727--1735}.
-\newblock
-
-
-\bibitem[Merrill(2020b)]%
-        {merrill_security_2020}
-\bibfield{author}{\bibinfo{person}{Nick Merrill}.}
-  \bibinfo{year}{2020}\natexlab{b}.
-\newblock \showarticletitle{Security {Fictions}: {Bridging} {Speculative}
-  {Design} and {Computer} {Security}}. In \bibinfo{booktitle}{\emph{DIS}}.
 \newblock
 
 
@@ -178,6 +127,28 @@
   \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{Privacy expectations and preferences in an
   $\{$IoT$\}$ world}. In \bibinfo{booktitle}{\emph{SOUPS}}.
+\newblock
+
+
+\bibitem[Pierce(2019)]%
+        {pierce2019lamps}
+\bibfield{author}{\bibinfo{person}{James Pierce}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Lamps, Curtains, Robots: 3 scenarios for the future
+  of the smart home}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019
+  Conference on Creativity and Cognition}}. \bibinfo{pages}{423--424}.
+\newblock
+
+
+\bibitem[Rossi et~al\mbox{.}(2022)]%
+        {rossi2022if}
+\bibfield{author}{\bibinfo{person}{Arianna Rossi}, \bibinfo{person}{Regis
+  Chatellier}, \bibinfo{person}{Stefano Leucci}, \bibinfo{person}{Rossana
+  Ducato}, {and} \bibinfo{person}{Estelle Hary}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{What if data protection embraced foresight and
+  speculative design?}
+\newblock \bibinfo{journal}{\emph{DRS2022: Bilbao}} (\bibinfo{year}{2022}).
 \newblock
 
 
@@ -207,14 +178,16 @@
 \shownote{Accessed: 2026-04-10}.
 
 
-\bibitem[Wong et~al\mbox{.}(2017)]%
-        {wong_real-fictional_2017}
-\bibfield{author}{\bibinfo{person}{Richmond~Y. Wong}, \bibinfo{person}{Ellen
-  Van~Wyk}, {and} \bibinfo{person}{James Pierce}.}
-  \bibinfo{year}{2017}\natexlab{}.
-\newblock \showarticletitle{Real-{Fictional} {Entanglements}: {Using} {Science}
-  {Fiction} and {Design} {Fiction} to {Interrogate} {Sensing} {Technologies}}.
-  In \bibinfo{booktitle}{\emph{DIS}}.
+\bibitem[Wong et~al\mbox{.}(2023)]%
+        {wong2023broadening}
+\bibfield{author}{\bibinfo{person}{Richmond~Y Wong},
+  \bibinfo{person}{Jason~Caleb Valdez}, \bibinfo{person}{Ashten Alexander},
+  \bibinfo{person}{Ariel Chiang}, \bibinfo{person}{Olivia Quesada}, {and}
+  \bibinfo{person}{James Pierce}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Broadening privacy and surveillance: Eliciting
+  interconnected values with a scenarios workbook on smart home cameras}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 2023 ACM Designing Interactive
+  Systems Conference}}. \bibinfo{pages}{1093--1113}.
 \newblock
 
 
