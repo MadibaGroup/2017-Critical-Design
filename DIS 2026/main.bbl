@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{15}
+\begin{thebibliography}{14}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -46,15 +46,6 @@
 \newblock
 
 
-\bibitem[Dunne and Gaver(1997)]%
-        {DuGa97}
-\bibfield{author}{\bibinfo{person}{Anthony Dunne} {and}
-  \bibinfo{person}{William~W. Gaver}.} \bibinfo{year}{1997}\natexlab{}.
-\newblock \showarticletitle{The Pillow: Artist-designers in the Digital Age}.
-  In \bibinfo{booktitle}{\emph{CHI}}.
-\newblock
-
-
 \bibitem[Dunne and Raby(2000)]%
         {DuRa01}
 \bibfield{author}{\bibinfo{person}{Anthony Dunne} {and} \bibinfo{person}{Fiona
@@ -82,7 +73,8 @@
   Zhang-Kennedy}.} \bibinfo{year}{2024}\natexlab{}.
 \newblock \showarticletitle{Privacy in immersive extended reality: Exploring
   user perceptions, concerns, and coping strategies}. In
-  \bibinfo{booktitle}{\emph{CHI}}.
+  \bibinfo{booktitle}{\emph{ACM CHI Conference on Human Factors in Computing
+  Systems}}.
 \newblock
 
 
@@ -91,10 +83,10 @@
 \bibfield{author}{\bibinfo{person}{Vera Khovanskaya}, \bibinfo{person}{Eric~PS
   Baumer}, \bibinfo{person}{Dan Cosley}, \bibinfo{person}{Stephen Voida}, {and}
   \bibinfo{person}{Geri Gay}.} \bibinfo{year}{2013}\natexlab{}.
-\newblock \showarticletitle{" Everybody knows what you're doing" a critical
-  design approach to personal informatics}. In
-  \bibinfo{booktitle}{\emph{Proceedings of the SIGCHI Conference on Human
-  Factors in Computing Systems}}. \bibinfo{pages}{3403--3412}.
+\newblock \showarticletitle{"Everybody knows what you're doing" a critical
+  design approach to personal informatics}. In \bibinfo{booktitle}{\emph{ACM
+  CHI Conference on Human Factors in Computing Systems}}.
+  \bibinfo{pages}{3403--3412}.
 \newblock
 
 
@@ -126,7 +118,8 @@
   Cranor}, {and} \bibinfo{person}{Norman Sadeh}.}
   \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{Privacy expectations and preferences in an
-  $\{$IoT$\}$ world}. In \bibinfo{booktitle}{\emph{SOUPS}}.
+  $\{$IoT$\}$ world}. In \bibinfo{booktitle}{\emph{Symposium on Usable Privacy
+  and Security (SOUPS)}}.
 \newblock
 
 
