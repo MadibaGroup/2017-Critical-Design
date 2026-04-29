@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  18 APR 2026 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  20 APR 2026 23:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1113,7 +1113,7 @@ Underfull \vbox (badness 1735) has occurred while \output is active []
 
 
 
-Underfull \vbox (badness 6396) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
@@ -1160,13 +1160,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 840CDB3DF62AA4BCDACEA63BF4A55C00;1265.
  ) 
 Here is how much of TeX's memory you used:
- 21379 strings out of 473190
- 346387 string characters out of 5715801
- 840678 words of memory out of 5000000
+ 21382 strings out of 473190
+ 346462 string characters out of 5715801
+ 840731 words of memory out of 5000000
  43660 multiletter control sequences out of 15000+600000
- 712781 words of font info for 375 fonts, out of 8000000 for 9000
+ 713054 words of font info for 377 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,1465b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,12n,131p,1453b,632s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinBiolinumT
 .pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinBiolin
 umTB.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/LinLi
@@ -1174,7 +1174,7 @@ bertineT.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libertine/L
 inLibertineTB.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/libert
 ine/LinLibertineTI.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/n
 ewtx/txsys.pfb>
-Output written on main.pdf (5 pages, 415823 bytes).
+Output written on main.pdf (5 pages, 415799 bytes).
 PDF statistics:
  187 PDF objects out of 1000 (max. 8388607)
  160 compressed objects within 2 object streams
