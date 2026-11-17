@@ -1,0 +1,117 @@
+\documentclass[sigconf]{acmart}
+
+%manuscript,review,anonymous
+%
+% Page Numbers
+%\settopmatter{printfolios=true}
+
+% Shrink copyright stuff
+%\settopmatter{printacmref=false}
+%\renewcommand\footnotetextcopyrightpermission[1]{}
+%\usepackage{silence}
+
+%\copyrightyear{2026}
+%\acmYear{2026}
+%\setcopyright{cc}
+%\setcctype{by}
+%\acmConference[DIS Companion '26]{Designing Interactive Systems Conference}{June 13--17, 2026}{Singapore, Singapore}
+%\acmBooktitle{Designing Interactive Systems Conference (DIS Companion '26), June 13--17, 2026, Singapore, Singapore}
+%\acmDOI{10.1145/3802974.3809446}
+%\acmISBN{979-8-4007-2632-3/2026/06}
+
+
+
+% = = = = = Packages = = = = = %
+
+%\input{setup/packages}
+\input{setup/macros}
+
+% = = = = = Title = = = = = %
+
+\begin{document}
+
+\title{Security Noir: Critical Designs for Security \& Privacy}
+
+%\author{Didem Demirag}
+%\email{demirag.didem@uqam.ca}
+%\orcid{0009-0003-9708-991X}
+%\affiliation{\institution{UQAM} \city{Montreal} \state{QC} \country{Canada}}
+%
+%
+%\author{Leah Zhang-Kennedy}
+%\email{lzhangke@uwaterloo.ca}
+%\orcid{0000-0002-0756-0022}
+%\affiliation{\institution{Stratford School of Interaction Design and Business, University of Waterloo} \city{Waterloo} \state{ON} \country{Canada}}
+%
+%\author{Jeremy Clark}
+%\email{j.clark@concordia.ca}
+%\orcid{0000-0002-3533-5965}
+%\affiliation{\institution{Concordia University} \city{Montreal} \state{QC} \country{Canada}}
+
+\begin{abstract}
+
+We introduce \textit{Security Noir}, a critical design approach for engaging with the often hidden and elusive dimensions of security and privacy. We present ten speculative artefacts, expressed through short vignettes that situate each design within everyday contexts of use. These plausible yet provocative scenarios use exaggeration, satire, and juxtaposition to surface socio-technical tensions. We position text-based vignettes as a deliberate design material that enables speculative artefacts to be rapidly produced, shared, and critically engaged with. This work contributes an initial proof-of-concept corpus of critical design artefacts and outlines future work to formalize this approach into a more explicit and transferable design methodology.
+
+%In this paper, we investigate an alternative method for communicating the somewhat elusive security risks and privacy invasions of technology, the web, social networks, and other aspects of modern life. Specifically, we draw from the \textit{critical design} movement popularized by Dunne and Raby in the 1990s. In this project, we have conceptualized 10 new technological designs and described their use through short vignettes. These designs are imaginary but plausible technologies that illustrate a security or privacy risk through absurdity, satire, or humour.
+
+\end{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+   <concept>
+       <concept_id>10003120</concept_id>
+       <concept_desc>Human-centered computing</concept_desc>
+       <concept_significance>500</concept_significance>
+       </concept>
+   <concept>
+       <concept_id>10003120.10003123.10011758</concept_id>
+       <concept_desc>Human-centered computing~Interaction design theory, concepts and paradigms</concept_desc>
+       <concept_significance>500</concept_significance>
+       </concept>
+   <concept>
+       <concept_id>10002978.10003029</concept_id>
+       <concept_desc>Security and privacy~Human and societal aspects of security and privacy</concept_desc>
+       <concept_significance>500</concept_significance>
+       </concept>
+ </ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Human-centered computing}
+\ccsdesc[500]{Human-centered computing~Interaction design theory, concepts and paradigms}
+\ccsdesc[500]{Security and privacy~Human and societal aspects of security and privacy}
+
+
+\keywords{Critical Design, Speculative Design, Design Fiction, Usable Privacy and Security, Threat Modelling, Vignettes, Human-Centered Security, Socio-Technical Systems}
+
+
+\maketitle
+
+
+% = = = = = Main Body = = = = = %
+
+\input{sections/01-body}
+
+% = = = = = Ack = = = = = %
+
+%\begin{anonsuppress}
+%\begin{acks}
+%%We thank the reviewers who helped to improve our paper. 
+%%
+%J. Clark acknowledges support for this research project from the \grantsponsor{nserc}{National Sciences and Engineering Research Council of Canada (NSERC)}{https://www.nserc-crsng.gc.ca} through the NSERC, Raymond Chabot Grant Thornton, and Catallaxy Industrial Research Chair in Blockchain Technologies \grantnum[https://www.nserc-crsng.gc.ca/Chairholders-TitulairesDeChaire/Chairholder-Titulaire_eng.asp?pid=1045]{nserc}{ IRCPJ/545498-2018} and a Discovery Grant \grantnum{nserc}{RGPIN/04019-2021}
+%%
+%%We also acknowledge partial support from 
+%%\grantsponsor{amf}{Autorité des Marchés Financiers (AMF)}{https://lautorite.qc.ca} and
+%%\grantsponsor{chaire}{The Chaire Fintech: AMF -- Finance Montréal}{https://chairefintech.uqam.ca} and
+%%\grantsponsor{opc}{Office of the Privacy Commissioner of Canada (OPC)}{https://www.priv.gc.ca}.
+%%
+%\end{acks}
+%\end{anonsuppress}
+
+% = = = = = Bibliography = = = = = %
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{bib/design.bib}
+
+% = = = = = End Notes = = = = = %
+
+\end{document}
+
